@@ -1,8 +1,0 @@
-properties:
-  href:
-    type: string
-  role:
-    type: string
-  title:
-    type: string
-type: object
