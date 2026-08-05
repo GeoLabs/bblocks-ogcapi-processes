@@ -1,0 +1,14 @@
+{
+  "title": "Validation report for ogc.api.processes.v1.schemas.qualifiedValue - qualifiedValue schema",
+  "bblockName": "qualifiedValue schema",
+  "bblockId": "ogc.api.processes.v1.schemas.qualifiedValue",
+  "generated": "2026-08-05T20:11:49.392264+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

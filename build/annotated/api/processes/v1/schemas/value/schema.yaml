@@ -1,0 +1,3 @@
+anyOf:
+- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/valueNoObject/schema.yaml
+- type: object

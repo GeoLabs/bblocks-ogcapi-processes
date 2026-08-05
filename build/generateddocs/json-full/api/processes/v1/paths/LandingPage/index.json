@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-12-02T09:00:00.000000",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-01-13",
+  "dateOfLastChange": "2026-08-05",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -24,12 +24,11 @@
     "ogc.api.processes.v1.responses.ServerError",
     "ogc.api.processes.v1.responses.LandingPage"
   ],
-  "sourceOpenAPIDocument": "https://ogcincubator.github.io/bblocks-ogcapi-processes/_sources/v1/paths/LandingPage/openapi.yaml",
-  "openAPIDocument": "https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/paths/LandingPage/openapi.yaml",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-processes/_sources/v1/paths/LandingPage/",
-  "rdfData": [],
+  "sourceOpenAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/paths/LandingPage/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/paths/LandingPage/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/paths/LandingPage/",
   "validationPassed": true,
   "annotatedSchema": null,
-  "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-processes",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/paths/LandingPage"
 }

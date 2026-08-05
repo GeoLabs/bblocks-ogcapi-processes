@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.processes.v1.schemas.bbox - bbox schema",
   "bblockName": "bbox schema",
   "bblockId": "ogc.api.processes.v1.schemas.bbox",
-  "generated": "2026-01-13T22:28:27.838378+00:00",
+  "generated": "2026-08-05T20:11:49.094257+00:00",
   "result": true,
   "items": [],
   "globalErrors": {},

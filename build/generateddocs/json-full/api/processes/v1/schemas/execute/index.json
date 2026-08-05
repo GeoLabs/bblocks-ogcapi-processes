@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.046535",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-01-13",
+  "dateOfLastChange": "2026-08-05",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -21,19 +21,19 @@
   "itemClass": "schema",
   "shaclShapes": {},
   "dependsOn": [
-    "ogc.api.processes.v1.schemas.inlineOrRefData",
+    "ogc.api.processes.v1.schemas.subscriber",
     "ogc.api.processes.v1.schemas.output",
-    "ogc.api.processes.v1.schemas.subscriber"
+    "ogc.api.processes.v1.schemas.inlineOrRefData"
   ],
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/execute/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/execute/schema.json"
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/execute/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/execute/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/execute/schema.yaml",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/execute/",
-  "rdfData": [],
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/execute/schema.yaml",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/execute/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/execute/",
   "validationPassed": true,
-  "annotatedSchema": "properties:\n  inputs:\n    additionalProperties:\n      oneOf:\n      - $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inlineOrRefData/schema.yaml\n      - items:\n          $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inlineOrRefData/schema.yaml\n        type: array\n  outputs:\n    additionalProperties:\n      $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/output/schema.yaml\n  response:\n    default:\n    - raw\n    enum:\n    - raw\n    - document\n    type: string\n  subscriber:\n    $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/subscriber/schema.yaml\ntype: object\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-processes",
+  "annotatedSchema": "properties:\n  inputs:\n    additionalProperties:\n      oneOf:\n      - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inlineOrRefData/schema.yaml\n      - items:\n          $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inlineOrRefData/schema.yaml\n        type: array\n  outputs:\n    additionalProperties:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/output/schema.yaml\n  response:\n    default:\n    - raw\n    enum:\n    - raw\n    - document\n    type: string\n  subscriber:\n    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/subscriber/schema.yaml\ntype: object\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/execute"
 }

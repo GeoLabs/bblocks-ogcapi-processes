@@ -11,22 +11,22 @@ None
 
 ```yaml
 allOf:
-- $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processSummary/schema.yaml
+- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processSummary/schema.yaml
 - properties:
     inputs:
       additionalProperties:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputDescription/schema.yaml
+        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputDescription/schema.yaml
     outputs:
       additionalProperties:
-        $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/outputDescription/schema.yaml
+        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/outputDescription/schema.yaml
   type: object
 
 ```
 
 Links to the schema:
 
-* YAML version: [schema.yaml](https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.json)
-* JSON version: [schema.json](https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.yaml)
+* YAML version: [schema.yaml](https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.yaml)
 
 
 # JSON-LD Context
@@ -34,18 +34,6 @@ Links to the schema:
 ```jsonld
 {
   "@context": {
-    "description": "dct:description",
-    "keywords": "proc:keywords",
-    "title": "dct:title",
-    "@vocab": "https://w3id.org/ogc/api/processes/",
-    "maxOccurs": "proc:maxOccurs",
-    "minOccurs": "proc:minOccurs",
-    "schema": {
-      "@context": {
-        "@vocab": "https://w3id.org/ogc/api/schema/"
-      },
-      "@id": "proc:schema"
-    },
     "nullable": "proc:nullable",
     "type": "proc:type",
     "$ref": {
@@ -60,6 +48,8 @@ Links to the schema:
       "@id": "proc:enum",
       "@container": "@set"
     },
+    "minOccurs": "proc:minOccurs",
+    "maxOccurs": "proc:maxOccurs",
     "dct": "http://purl.org/dc/terms/",
     "proc": "https://w3id.org/ogc/api/processes/",
     "@version": 1.1
@@ -68,7 +58,7 @@ Links to the schema:
 ```
 
 You can find the full JSON-LD context here:
-[context.jsonld](https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/context.jsonld)
+[context.jsonld](https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/context.jsonld)
 
 ## Sources
 
@@ -78,6 +68,6 @@ You can find the full JSON-LD context here:
 
 The source code for this Building Block can be found in the following repository:
 
-* URL: [https://github.com/ogcincubator/bblocks-ogcapi-processes](https://github.com/ogcincubator/bblocks-ogcapi-processes)
+* URL: [https://github.com/GeoLabs/bblocks-ogcapi-processes](https://github.com/GeoLabs/bblocks-ogcapi-processes)
 * Path: `_sources/v1/schemas/process`
 

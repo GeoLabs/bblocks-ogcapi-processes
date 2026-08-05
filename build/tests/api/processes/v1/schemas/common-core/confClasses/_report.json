@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.processes.v1.schemas.common-core.confClasses - Schema for confClasses schema",
   "bblockName": "Schema for confClasses schema",
   "bblockId": "ogc.api.processes.v1.schemas.common-core.confClasses",
-  "generated": "2026-01-13T22:28:27.849457+00:00",
+  "generated": "2026-08-05T20:11:49.114276+00:00",
   "result": true,
   "items": [
     {
@@ -10,7 +10,7 @@
         "type": "EXAMPLE",
         "requireFail": false,
         "filename": "build/tests/api/processes/v1/schemas/common-core/confClasses/example_1_1.json",
-        "url": "https://ogcincubator.github.io/bblocks-ogcapi-processes/build/tests/api/processes/v1/schemas/common-core/confClasses/example_1_1.json",
+        "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/api/processes/v1/schemas/common-core/confClasses/example_1_1.json",
         "exampleIndex": 1,
         "snippetIndex": 1,
         "language": "application/json"

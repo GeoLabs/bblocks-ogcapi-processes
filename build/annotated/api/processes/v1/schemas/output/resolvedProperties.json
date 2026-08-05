@@ -1,0 +1,1 @@
+{"defs":{},"properties":[{"path":["format"],"sources":["bblocks://ogc.api.processes.v1.schemas.output"]},{"path":["format","encoding"],"schema_type":"string"},{"path":["format","mediaType"],"schema_type":"string"},{"path":["format","schema"]},{"path":["transmissionMode"],"sources":["bblocks://ogc.api.processes.v1.schemas.output"]}]}

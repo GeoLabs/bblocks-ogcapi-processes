@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.processes.v1.parameters.maxDuration - maxDuration parameter",
   "bblockName": "maxDuration parameter",
   "bblockId": "ogc.api.processes.v1.parameters.maxDuration",
-  "generated": "2026-01-13T22:28:27.787856+00:00",
+  "generated": "2026-08-05T20:11:49.048584+00:00",
   "result": true,
   "items": [],
   "globalErrors": {},

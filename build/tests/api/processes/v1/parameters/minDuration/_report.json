@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.processes.v1.parameters.minDuration - minDuration parameter",
   "bblockName": "minDuration parameter",
   "bblockId": "ogc.api.processes.v1.parameters.minDuration",
-  "generated": "2026-01-13T22:28:27.791531+00:00",
+  "generated": "2026-08-05T20:11:49.051823+00:00",
   "result": true,
   "items": [],
   "globalErrors": {},

@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.118638",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-01-13",
+  "dateOfLastChange": "2026-08-05",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -24,14 +24,13 @@
     "ogc.api.processes.v1.schemas.exception"
   ],
   "schema": {
-    "application/yaml": "https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotSupported/schema.yaml",
-    "application/json": "https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotSupported/schema.json"
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotSupported/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotSupported/schema.json"
   },
-  "sourceSchema": "https://ogcincubator.github.io/bblocks-ogcapi-processes/_sources/v1/responses/NotSupported/schema.yaml",
-  "sourceFiles": "https://ogcincubator.github.io/bblocks-ogcapi-processes/_sources/v1/responses/NotSupported/",
-  "rdfData": [],
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/responses/NotSupported/schema.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/responses/NotSupported/",
   "validationPassed": true,
-  "annotatedSchema": "content:\n  application/json:\n    schema:\n      $ref: https://ogcincubator.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/exception/schema.yaml\n  text/html:\n    schema:\n      type: string\ndescription: None of the requested media types is supported at the path.\n",
-  "gitRepository": "https://github.com/ogcincubator/bblocks-ogcapi-processes",
+  "annotatedSchema": "content:\n  application/json:\n    schema:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/exception/schema.yaml\n  text/html:\n    schema:\n      type: string\ndescription: None of the requested media types is supported at the path.\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/responses/NotSupported"
 }

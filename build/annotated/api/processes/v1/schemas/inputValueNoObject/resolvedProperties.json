@@ -1,0 +1,1 @@
+{"defs":{},"properties":[{"path":["crs"],"schema_type":"string","format":"uri","enum":["http://www.opengis.net/def/crs/OGC/1.3/CRS84","http://www.opengis.net/def/crs/OGC/0/CRS84h"]},{"path":["bbox"],"required":true,"schema_type":"array"}]}
