@@ -1,0 +1,3 @@
+# Binary value; base64 content encoding is applied at the media-type level (see format).
+type: string
+# contentEncoding: base64

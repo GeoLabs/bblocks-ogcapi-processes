@@ -1,0 +1,10 @@
+anyOf:
+  - type: string
+  - type: number
+  - type: integer
+  - type: boolean
+  - type: array
+    items: {}
+  - $ref: bblocks://ogc.api.processes.v1.schemas.binaryValue
+  - $ref: bblocks://ogc.api.processes.v1.schemas.bbox
+  - $ref: bblocks://ogc.api.processes.v1.schemas.collectionValue
