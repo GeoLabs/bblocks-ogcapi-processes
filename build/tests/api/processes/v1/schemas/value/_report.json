@@ -2,10 +2,11 @@
   "title": "Validation report for ogc.api.processes.v1.schemas.value - value schema",
   "bblockName": "value schema",
   "bblockId": "ogc.api.processes.v1.schemas.value",
-  "generated": "2026-08-05T20:11:49.349172+00:00",
+  "generated": "2026-11-09T18:55:03.036199+00:00",
   "result": true,
   "items": [],
   "globalErrors": {},
+  "hasWarnings": false,
   "counts": {
     "total": 0,
     "passed": 0,

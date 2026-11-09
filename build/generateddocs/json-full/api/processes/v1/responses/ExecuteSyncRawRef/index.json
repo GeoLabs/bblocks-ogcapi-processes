@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.118638",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -27,7 +27,7 @@
   "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/responses/ExecuteSyncRawRef/schema.yaml",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/responses/ExecuteSyncRawRef/",
   "validationPassed": true,
-  "annotatedSchema": "description: Response when negotiate synchronous execution, response=raw, transmissionMode=reference\n  and for any number of output values.\nheaders:\n  Link:\n    description: One or more Link headers pointing to each raw output.\n    schema:\n      type: string\n",
+  "annotatedSchema": "description: Response when negotiate synchronous execution, response=raw, transmissionMode=reference\n  and for any number of output values.\nheaders:\n  Link:\n    description: One or more Link headers pointing to each raw output.\n    schema:\n      type: string\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.responses.ExecuteSyncRawRef\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/responses/ExecuteSyncRawRef"
 }

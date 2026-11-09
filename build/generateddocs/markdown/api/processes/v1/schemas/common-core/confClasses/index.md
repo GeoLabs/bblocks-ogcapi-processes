@@ -36,6 +36,11 @@ properties:
     items:
       type: string
       example: http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.schemas.common-core.confClasses
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

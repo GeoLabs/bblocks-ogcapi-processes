@@ -13,6 +13,11 @@ None
 anyOf:
 - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/valueNoObject/schema.yaml
 - type: object
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.schemas.value
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

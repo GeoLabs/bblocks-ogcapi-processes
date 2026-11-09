@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.118638",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -30,7 +30,7 @@
   "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/responses/NotSupported/schema.yaml",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/responses/NotSupported/",
   "validationPassed": true,
-  "annotatedSchema": "content:\n  application/json:\n    schema:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/exception/schema.yaml\n  text/html:\n    schema:\n      type: string\ndescription: None of the requested media types is supported at the path.\n",
+  "annotatedSchema": "content:\n  application/json:\n    schema:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/exception/schema.yaml\n  text/html:\n    schema:\n      type: string\ndescription: None of the requested media types is supported at the path.\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.responses.NotSupported\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/responses/NotSupported"
 }

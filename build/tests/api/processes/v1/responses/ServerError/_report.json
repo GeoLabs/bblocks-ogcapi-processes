@@ -2,10 +2,11 @@
   "title": "Validation report for ogc.api.processes.v1.responses.ServerError - ServerError response",
   "bblockName": "ServerError response",
   "bblockId": "ogc.api.processes.v1.responses.ServerError",
-  "generated": "2026-08-05T20:11:49.189696+00:00",
+  "generated": "2026-11-09T18:55:02.936322+00:00",
   "result": true,
   "items": [],
   "globalErrors": {},
+  "hasWarnings": false,
   "counts": {
     "total": 0,
     "passed": 0,

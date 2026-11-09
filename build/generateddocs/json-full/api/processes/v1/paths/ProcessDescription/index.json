@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-12-11T09:00:00.000000",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API processes - Part 1 - Core",

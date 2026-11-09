@@ -2,7 +2,7 @@
   "title": "Validation report for ogc.api.processes.v1.schemas.inputDescription - inputDescription schema",
   "bblockName": "inputDescription schema",
   "bblockId": "ogc.api.processes.v1.schemas.inputDescription",
-  "generated": "2026-08-05T20:11:49.318694+00:00",
+  "generated": "2026-11-09T18:55:03.017956+00:00",
   "result": true,
   "items": [
     {
@@ -16,6 +16,7 @@
         "language": "application/json"
       },
       "result": true,
+      "hasWarnings": false,
       "sections": [
         {
           "name": "FILES",
@@ -62,6 +63,7 @@
     }
   ],
   "globalErrors": {},
+  "hasWarnings": false,
   "counts": {
     "total": 1,
     "passed": 1,

@@ -11,6 +11,11 @@ None
 
 ```yaml
 type: string
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.schemas.binaryValue
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

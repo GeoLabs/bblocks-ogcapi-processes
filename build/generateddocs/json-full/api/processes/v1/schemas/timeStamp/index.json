@@ -8,7 +8,7 @@
   "itemClass": "datatype",
   "register": "ogcapi-features",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -29,7 +29,7 @@
   "sourceSchema": "https://schemas.opengis.net/ogcapi/features/part1/1.0/openapi/schemas/timeStamp.yaml",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/timeStamp/",
   "validationPassed": true,
-  "annotatedSchema": "description: This property indicates the time and date when the response was generated.\ntype: string\nformat: date-time\nexample: '2017-08-17T08:05:32Z'\n",
+  "annotatedSchema": "description: This property indicates the time and date when the response was generated.\ntype: string\nformat: date-time\nexample: '2017-08-17T08:05:32Z'\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.schemas.timeStamp\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/timeStamp"
 }

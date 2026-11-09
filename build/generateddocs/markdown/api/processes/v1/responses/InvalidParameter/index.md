@@ -18,6 +18,11 @@ content:
     schema:
       type: string
 description: A query parameter has an invalid value.
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.responses.InvalidParameter
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

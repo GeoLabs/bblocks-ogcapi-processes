@@ -8,7 +8,7 @@
   "itemClass": "schema",
   "register": "ogcapi-features",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "annotatedSchema": "type: object\nrequired:\n- conformsTo\nproperties:\n  conformsTo:\n    type: array\n    items:\n      type: string\n      example: http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core\n",
+  "annotatedSchema": "type: object\nrequired:\n- conformsTo\nproperties:\n  conformsTo:\n    type: array\n    items:\n      type: string\n      example: http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.schemas.common-core.confClasses\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/common-core/confClasses"
 }

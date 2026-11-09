@@ -27,6 +27,11 @@ content:
         description: Negotiate synchronous execution, response=document,any txMode
           and no. outputs
 description: Result of synchronous execution
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.responses.ExecuteSync
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

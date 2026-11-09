@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.046535",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -21,8 +21,8 @@
   "itemClass": "schema",
   "shaclShapes": {},
   "dependsOn": [
-    "ogc.api.processes.v1.schemas.inputValue",
-    "ogc.api.processes.v1.schemas.format"
+    "ogc.api.processes.v1.schemas.format",
+    "ogc.api.processes.v1.schemas.inputValue"
   ],
   "schema": {
     "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedInputValue/schema.yaml",
@@ -32,7 +32,7 @@
   "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedInputValue/resolvedProperties.json",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/qualifiedInputValue/",
   "validationPassed": true,
-  "annotatedSchema": "allOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/format/schema.yaml\n- properties:\n    value:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValue/schema.yaml\n  required:\n  - value\n  type: object\n",
+  "annotatedSchema": "allOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/format/schema.yaml\n- properties:\n    value:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValue/schema.yaml\n  required:\n  - value\n  type: object\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.schemas.qualifiedInputValue\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/qualifiedInputValue"
 }

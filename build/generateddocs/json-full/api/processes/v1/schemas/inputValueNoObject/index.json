@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.046535",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -32,7 +32,7 @@
   "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValueNoObject/resolvedProperties.json",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/inputValueNoObject/",
   "validationPassed": true,
-  "annotatedSchema": "oneOf:\n- type: string\n- type: number\n- type: integer\n- type: boolean\n- type: array\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryInputValue/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.yaml\n",
+  "annotatedSchema": "oneOf:\n- type: string\n- type: number\n- type: integer\n- type: boolean\n- type: array\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryInputValue/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.yaml\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.schemas.inputValueNoObject\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/inputValueNoObject"
 }

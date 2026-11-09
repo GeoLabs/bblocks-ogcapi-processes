@@ -128,3 +128,8 @@ oneOf:
       type: boolean
   type: object
 x-jsonld-vocab: https://w3id.org/ogc/api/schema/
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.schemas.schema
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'

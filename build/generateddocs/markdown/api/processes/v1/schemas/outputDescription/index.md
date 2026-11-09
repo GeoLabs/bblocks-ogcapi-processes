@@ -40,6 +40,11 @@ x-jsonld-vocab: https://w3id.org/ogc/api/processes/
 x-jsonld-prefixes:
   dct: http://purl.org/dc/terms/
   proc: https://w3id.org/ogc/api/processes/
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.schemas.outputDescription
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

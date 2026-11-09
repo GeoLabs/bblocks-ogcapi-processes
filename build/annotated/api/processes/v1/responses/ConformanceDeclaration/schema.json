@@ -16,5 +16,11 @@
       }
     }
   },
-  "description": "The URIs of all conformance classes supported by the server.\n\nTo support \"generic\" clients that want to access multiple\nOGC API - Processes implementations - and not \"just\" a specific\nAPI / server, the server declares the conformance\nclasses it implements and conforms to."
+  "description": "The URIs of all conformance classes supported by the server.\n\nTo support \"generic\" clients that want to access multiple\nOGC API - Processes implementations - and not \"just\" a specific\nAPI / server, the server declares the conformance\nclasses it implements and conforms to.",
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.v1.responses.ConformanceDeclaration",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "0.1",
+    "dateOfLastChange": "2026-11-09"
+  }
 }

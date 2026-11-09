@@ -25,6 +25,11 @@ description: 'The landing page provides links to the API definition
 
   link relation `http://www.opengis.net/def/rel/ogc/1.0/conformance`), and to other
   resources.'
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.v1.responses.LandingPage
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '0.1'
+  dateOfLastChange: '2026-11-09'
 
 ```
 

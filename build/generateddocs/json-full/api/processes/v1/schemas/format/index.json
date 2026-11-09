@@ -6,7 +6,7 @@
   "dateTimeAddition": "2025-10-22T15:29:12.046535",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API Features - Part 1 - Core corrigendum",
@@ -28,7 +28,7 @@
   "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/format/resolvedProperties.json",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/format/",
   "validationPassed": true,
-  "annotatedSchema": "properties:\n  encoding:\n    type: string\n  mediaType:\n    type: string\n  schema:\n    oneOf:\n    - format: url\n      type: string\n    - type: object\ntype: object\n",
+  "annotatedSchema": "properties:\n  encoding:\n    type: string\n  mediaType:\n    type: string\n  schema:\n    oneOf:\n    - format: url\n      type: string\n    - type: object\ntype: object\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.schemas.format\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/format"
 }

@@ -2,8 +2,8 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix ns1: <http://www.w3.org/ns/oa#> .
-@prefix ns2: <http://www.iana.org/assignments/> .
+@prefix ns1: <http://www.iana.org/assignments/> .
+@prefix ns2: <http://www.w3.org/ns/oa#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prof: <http://www.w3.org/ns/dx/prof/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -21,14 +21,14 @@
     rdfs:label "OGC API - Processes: Part 1" ;
     dct:abstract "This building block corresponds to OGC API Processes"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-03-22T11:40:00+01:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/api/index.json> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.api> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/api/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.api> ] ;
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/api/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "OGC API - Processes: Part 1" ;
@@ -55,12 +55,12 @@
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/datetime/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/datetime/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.datetime> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.datetime> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/datetime/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "datetime parameter" ;
@@ -76,14 +76,14 @@
         bblocks:Parameter ;
     rdfs:label "limit parameter" ;
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/limit/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.limit> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/limit/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/limit/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/limit/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "limit parameter" ;
@@ -106,7 +106,7 @@
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/maxDuration/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "maxDuration parameter" ;
@@ -122,14 +122,14 @@
         bblocks:Parameter ;
     rdfs:label "minDuration parameter" ;
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/minDuration/index.json> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.minDuration> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/minDuration/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.minDuration> ] ;
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/minDuration/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "minDuration parameter" ;
@@ -147,12 +147,12 @@
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.processIdQueryParam> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/processIdQueryParam/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/processIdQueryParam/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/processIdQueryParam/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/processIdQueryParam/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "processIdQueryParam parameter" ;
@@ -168,14 +168,14 @@
         bblocks:Parameter ;
     rdfs:label "status parameter" ;
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/status/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.status> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/status/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/status/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/status/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "status parameter" ;
@@ -192,14 +192,14 @@
         bblocks:Parameter ;
     rdfs:label "type parameter" ;
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/type/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/type/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.type> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/type/index.json> ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/type/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "type parameter" ;
@@ -217,12 +217,12 @@
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ExecuteSyncRawRef/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ExecuteSyncRawRef/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ExecuteSyncRawRef> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ExecuteSyncRawRef> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ExecuteSyncRawRef/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ExecuteSyncRawRef response" ;
@@ -230,12 +230,12 @@
     dcat:keyword "ogcapi-processes",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/ExecuteSyncRawRef/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/ExecuteSyncRawRef/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/ExecuteSyncRawRef/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -253,7 +253,7 @@
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/InvalidParameter/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "InvalidParameter response" ;
@@ -261,12 +261,12 @@
     dcat:keyword "ogcapi-processes",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/InvalidParameter/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/InvalidParameter/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/InvalidParameter/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.exception> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -278,14 +278,14 @@
         bblocks:Response ;
     rdfs:label "NotAllowed response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.NotAllowed> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/NotAllowed/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/NotAllowed/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/NotAllowed/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.NotAllowed> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "NotAllowed response" ;
@@ -310,14 +310,14 @@
         bblocks:Response ;
     rdfs:label "NotSupported response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/NotSupported/index.md> ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.NotSupported> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/NotSupported/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/NotSupported/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/NotSupported/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "NotSupported response" ;
@@ -349,7 +349,7 @@
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.swagger.ProcessDescription> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ProcessDescription response" ;
@@ -375,14 +375,14 @@
     rdfs:label "Schema for confClasses schema" ;
     dct:abstract "This building block corresponds to the schema for an OGC API Features confClasses"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-03-22T11:40:00+01:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.common-core.confClasses> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/common-core/confClasses/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/common-core/confClasses/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/common-core/confClasses/index.json> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.common-core.confClasses> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Schema for confClasses schema" ;
@@ -390,12 +390,12 @@
     dcat:keyword "features",
         "ogcapi-features" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/confClasses/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/confClasses/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/confClasses/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -409,12 +409,12 @@
     dct:created "2024-03-22T11:40:00+01:00"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/common-core/exception/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.common-core.exception> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/common-core/exception/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/common-core/exception/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.common-core.exception> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Schema for exception schema" ;
@@ -439,32 +439,32 @@
     rdfs:label "Schema for landingPage schema" ;
     dct:abstract "This building block corresponds to the schema for an OGC API Features landingPage"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-03-22T11:40:00+01:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.common-core.landingPage> ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/common-core/landingPage/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/common-core/landingPage/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.common-core.landingPage> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/common-core/landingPage/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Schema for landingPage schema" ;
     skos:topConceptOf <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     dcat:keyword "features",
         "ogcapi-features" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/landingPage/context.jsonld> ;
-            prof:hasRole role:mapping ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/landingPage/schema.json> ;
             prof:hasRole role:schema ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/landingPage/schema.yaml> ;
-            prof:hasRole role:schema ] ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/common-core/landingPage/context.jsonld> ;
+            prof:hasRole role:mapping ] ;
     bblocks:dependsOn <bblocks://ogc.ogc-utils.json-link> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -475,14 +475,14 @@
         bblocks:Schema ;
     rdfs:label "qualifiedValue schema" ;
     dct:created "2026-08-05T00:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.qualifiedValue> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/qualifiedValue/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/qualifiedValue/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/qualifiedValue/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.qualifiedValue> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "qualifiedValue schema" ;
@@ -490,12 +490,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedValue/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedValue/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedValue/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.format>,
         <bblocks://ogc.api.processes.v1.schemas.value> ;
@@ -509,14 +509,14 @@
     rdfs:label "Schema for timeStamp schema" ;
     dct:abstract "This property indicates the time and date when the response was generated"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:created "2024-03-22T11:40:00+01:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.timeStamp> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/timeStamp/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/timeStamp/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/timeStamp/index.json> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.timeStamp> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Schema for timeStamp schema" ;
@@ -536,18 +536,18 @@
 
 <https://geolabs.github.io/bblocks-ogcapi-processes/build/bblocks.ttl> a prov:Entity ;
     dct:format "text/turtle" ;
-    prov:wasAttributedTo _:N0a75d295aa634df19bd688bf49cc542d ;
+    prov:wasAttributedTo _:Neefb188f09544961a07776a13d482239 ;
     prov:wasGeneratedBy [ a prov:Activity ;
-            prov:endedAtTime "2026-08-05T20:11:49.861357"^^xsd:dateTime ;
-            prov:startedAtTime "2026-08-05T20:11:49.526227"^^xsd:dateTime ;
+            prov:endedAtTime "2026-11-09T18:55:03.460908"^^xsd:dateTime ;
+            prov:startedAtTime "2026-11-09T18:55:03.149920"^^xsd:dateTime ;
             prov:used [ a prov:Entity ;
                     dct:format "application/json" ;
-                    dct:hasVersion "git:458c386f0309e77419cbf1e5ffe09a9a805581ef" ;
+                    dct:hasVersion "git:35affb71f215e388cac772a9ba3fafc03c7b22e8" ;
                     rdfs:seeAlso <https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json> ],
                 [ a prov:Entity ;
                     dct:format "application/yaml" ;
                     rdfs:seeAlso <file:///src/ogc/bblocks/register-context.yaml> ] ;
-            prov:wasAssociatedWith _:N0a75d295aa634df19bd688bf49cc542d ] .
+            prov:wasAssociatedWith _:Neefb188f09544961a07776a13d482239 ] .
 
 <bblocks://ogc.api.processes.v1.paths.Conformance> a skos:Concept,
         dcat:Dataset,
@@ -555,14 +555,14 @@
         bblocks:Path ;
     rdfs:label "Conformance path" ;
     dct:created "2025-12-02T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/Conformance/index.json> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/Conformance/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/Conformance/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.Conformance> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Conformance path" ;
@@ -580,14 +580,14 @@
         bblocks:Path ;
     rdfs:label "Dismiss Job" ;
     dct:created "2025-12-11T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.DismissJob> ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/DismissJob/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/DismissJob/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.DismissJob> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/DismissJob/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Dismiss Job" ;
@@ -607,14 +607,14 @@
         bblocks:Path ;
     rdfs:label "Execute path" ;
     dct:created "2025-12-02T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/Execution/index.md> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/Execution/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/Execution/index.md> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.Execution> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Execute path" ;
@@ -637,14 +637,14 @@
         bblocks:Path ;
     rdfs:label "Job path" ;
     dct:created "2025-12-11T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/Job/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.Job> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/Job/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/Job/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Job path" ;
@@ -664,14 +664,14 @@
         bblocks:Path ;
     rdfs:label "JobList path" ;
     dct:created "2025-12-02T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.JobList> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/JobList/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/JobList/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/JobList/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.JobList> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "JobList path" ;
@@ -689,14 +689,14 @@
         bblocks:Path ;
     rdfs:label "Job result path" ;
     dct:created "2025-12-11T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/JobResult/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.JobResult> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/JobResult/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/JobResult/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Job result path" ;
@@ -716,14 +716,14 @@
         bblocks:Path ;
     rdfs:label "LandingPage path" ;
     dct:created "2025-12-02T09:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/LandingPage/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/LandingPage/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.LandingPage> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/paths/LandingPage/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.LandingPage> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "LandingPage path" ;
@@ -748,7 +748,7 @@
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/paths/ProcessDescription/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ProcessDescription path" ;
@@ -774,7 +774,7 @@
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.paths.ProcessList> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ProcessList path" ;
@@ -791,14 +791,14 @@
         bblocks:Response ;
     rdfs:label "ConformanceDeclaration response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ConformanceDeclaration> ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ConformanceDeclaration/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ConformanceDeclaration/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ConformanceDeclaration> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ConformanceDeclaration/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ConformanceDeclaration response" ;
@@ -823,14 +823,14 @@
         bblocks:Response ;
     rdfs:label "ExecuteAsync response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ExecuteAsync/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ExecuteAsync/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ExecuteAsync> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ExecuteAsync/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ExecuteAsync> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ExecuteAsync response" ;
@@ -855,14 +855,14 @@
         bblocks:Response ;
     rdfs:label "ExecuteSync response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ExecuteSync/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ExecuteSync/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ExecuteSync> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ExecuteSync/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ExecuteSync> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ExecuteSync response" ;
@@ -887,14 +887,14 @@
         bblocks:Response ;
     rdfs:label "JobList response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/JobList/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.JobList> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/JobList/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/JobList/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/JobList/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "JobList response" ;
@@ -919,14 +919,14 @@
         bblocks:Response ;
     rdfs:label "LandingPage response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/LandingPage/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/LandingPage/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.LandingPage> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/LandingPage/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.LandingPage> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "LandingPage response" ;
@@ -951,14 +951,14 @@
         bblocks:Response ;
     rdfs:label "ProcessDescription response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ProcessDescription/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ProcessDescription> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ProcessDescription/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ProcessDescription/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ProcessDescription response" ;
@@ -983,14 +983,14 @@
         bblocks:Response ;
     rdfs:label "ProcessList response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ProcessList/index.json> ],
+    dct:description [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ProcessList> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ProcessList/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ProcessList> ] ;
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ProcessList/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ProcessList response" ;
@@ -1017,12 +1017,12 @@
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.Results> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/Results/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/Results/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/Results/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/Results/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Results response" ;
@@ -1047,14 +1047,14 @@
         bblocks:Schema ;
     rdfs:label "additionalParameter schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/additionalParameter/index.md> ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.additionalParameter> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/additionalParameter/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/additionalParameter/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/additionalParameter/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "additionalParameter schema" ;
@@ -1078,14 +1078,14 @@
         bblocks:Schema ;
     rdfs:label "binaryInputValue schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/binaryInputValue/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/binaryInputValue/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.binaryInputValue> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/binaryInputValue/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.binaryInputValue> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "binaryInputValue schema" ;
@@ -1093,12 +1093,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryInputValue/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryInputValue/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryInputValue/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1109,14 +1109,14 @@
         bblocks:Schema ;
     rdfs:label "binaryValue schema" ;
     dct:created "2026-08-05T00:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/binaryValue/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.binaryValue> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/binaryValue/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/binaryValue/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/binaryValue/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "binaryValue schema" ;
@@ -1140,14 +1140,14 @@
         bblocks:Schema ;
     rdfs:label "collectionValue schema" ;
     dct:created "2026-08-05T00:00:00"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/collectionValue/index.md> ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.collectionValue> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/collectionValue/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/collectionValue/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/collectionValue/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "collectionValue schema" ;
@@ -1172,14 +1172,14 @@
         bblocks:Schema ;
     rdfs:label "confClasses schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.confClasses> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/confClasses/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/confClasses/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/confClasses/index.json> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.confClasses> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "confClasses schema" ;
@@ -1187,12 +1187,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/confClasses/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/confClasses/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/confClasses/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1210,7 +1210,7 @@
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.execute> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "execute schema" ;
@@ -1237,14 +1237,14 @@
         bblocks:Schema ;
     rdfs:label "inputDescription schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.inputDescription> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/inputDescription/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inputDescription/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inputDescription/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.inputDescription> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "inputDescription schema" ;
@@ -1275,14 +1275,14 @@
         bblocks:Schema ;
     rdfs:label "inputValue schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inputValue/index.json> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/inputValue/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.inputValue> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.inputValue> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inputValue/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "inputValue schema" ;
@@ -1290,12 +1290,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValue/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValue/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValue/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.inputValueNoObject> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -1307,14 +1307,14 @@
         bblocks:Schema ;
     rdfs:label "jobControlOptions schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.jobControlOptions> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/jobControlOptions/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/jobControlOptions/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/jobControlOptions/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.jobControlOptions> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "jobControlOptions schema" ;
@@ -1340,12 +1340,12 @@
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.jobList> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/jobList/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/jobList/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/jobList/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/jobList/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "jobList schema" ;
@@ -1371,14 +1371,14 @@
         bblocks:Schema ;
     rdfs:label "landingPage schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/landingPage/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/landingPage/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.landingPage> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/landingPage/index.json> ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/landingPage/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "landingPage schema" ;
@@ -1403,14 +1403,14 @@
         bblocks:Schema ;
     rdfs:label "metadata schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.metadata> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/metadata/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/metadata/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/metadata/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.metadata> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "metadata schema" ;
@@ -1434,14 +1434,14 @@
         bblocks:Schema ;
     rdfs:label "output schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/output/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.output> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/output/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/output/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "output schema" ;
@@ -1467,28 +1467,28 @@
         bblocks:Schema ;
     rdfs:label "outputDescription schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.outputDescription> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/outputDescription/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/outputDescription/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/outputDescription/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.outputDescription> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "outputDescription schema" ;
     skos:topConceptOf <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     dcat:keyword "ogcapi-processes",
         "schema" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/outputDescription/context.jsonld> ;
-            prof:hasRole role:mapping ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/outputDescription/schema.json> ;
             prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/outputDescription/context.jsonld> ;
+            prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/outputDescription/schema.yaml> ;
@@ -1512,24 +1512,24 @@
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/process/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "process schema" ;
     skos:topConceptOf <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     dcat:keyword "ogcapi-processes",
         "schema" ;
-    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
             dct:format "application/ld+json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/context.jsonld> ;
             prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/process/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.inputDescription>,
         <bblocks://ogc.api.processes.v1.schemas.outputDescription>,
@@ -1543,14 +1543,14 @@
         bblocks:Schema ;
     rdfs:label "processList schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.processList> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/processList/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/processList/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/processList/index.json> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.processList> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "processList schema" ;
@@ -1558,12 +1558,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processList/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processList/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processList/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.link>,
         <bblocks://ogc.api.processes.v1.schemas.processSummary> ;
@@ -1578,12 +1578,12 @@
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/qualifiedInputValue/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.qualifiedInputValue> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/qualifiedInputValue/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/qualifiedInputValue/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.qualifiedInputValue> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "qualifiedInputValue schema" ;
@@ -1591,12 +1591,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedInputValue/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedInputValue/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/qualifiedInputValue/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.format>,
         <bblocks://ogc.api.processes.v1.schemas.inputValue> ;
@@ -1609,14 +1609,14 @@
         bblocks:Schema ;
     rdfs:label "subscriber schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/subscriber/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.subscriber> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/subscriber/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/subscriber/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/subscriber/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "subscriber schema" ;
@@ -1624,12 +1624,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/subscriber/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/subscriber/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/subscriber/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1640,14 +1640,14 @@
         bblocks:Schema ;
     rdfs:label "inputDescription schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/swagger/inputDescription/index.json> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/inputDescription/index.md> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.swagger.inputDescription> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/inputDescription/index.md> ] ;
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/swagger/inputDescription/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "inputDescription schema" ;
@@ -1673,14 +1673,14 @@
         bblocks:Schema ;
     rdfs:label "outputDescription schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.swagger.outputDescription> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/outputDescription/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/swagger/outputDescription/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/outputDescription/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.swagger.outputDescription> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "outputDescription schema" ;
@@ -1706,14 +1706,14 @@
         bblocks:Schema ;
     rdfs:label "process schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/process/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.swagger.process> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/process/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/swagger/process/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "process schema" ;
@@ -1721,12 +1721,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/swagger/process/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/swagger/process/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/swagger/process/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.processSummary>,
         <bblocks://ogc.api.processes.v1.schemas.swagger.inputDescription>,
@@ -1742,12 +1742,12 @@
     dct:created "2026-08-05T00:00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/value/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.value> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/value/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/value/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.value> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "value schema" ;
@@ -1755,12 +1755,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/value/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/value/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/value/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.valueNoObject> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -1774,12 +1774,12 @@
     dct:created "2026-08-05T00:00:00"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.valueNoObject> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/valueNoObject/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/valueNoObject/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/valueNoObject/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/valueNoObject/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/18-062r2/18-062r2.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "valueNoObject schema" ;
@@ -1808,12 +1808,12 @@
     dct:created "2025-10-22T15:29:12.178084"^^xsd:dateTime ;
     dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/parameters/processIdPathParam/index.md> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.processIdPathParam> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/processIdPathParam/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/processIdPathParam/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.parameters.processIdPathParam> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "processIdPathParam parameter" ;
@@ -1831,12 +1831,12 @@
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.Status> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/Status/index.json> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/Status/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/Status/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/Status/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "Status response" ;
@@ -1863,12 +1863,12 @@
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/bbox/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/bbox/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.bbox> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.bbox> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/bbox/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "bbox schema" ;
@@ -1876,12 +1876,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.json> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.yaml> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.json> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -1899,7 +1899,7 @@
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inlineOrRefData/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "inlineOrRefData schema" ;
@@ -1926,14 +1926,14 @@
         bblocks:Schema ;
     rdfs:label "inputValueNoObject schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/inputValueNoObject/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inputValueNoObject/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.inputValueNoObject> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/inputValueNoObject/index.json> ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/inputValueNoObject/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "inputValueNoObject schema" ;
@@ -1941,12 +1941,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValueNoObject/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValueNoObject/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/inputValueNoObject/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.bbox>,
         <bblocks://ogc.api.processes.v1.schemas.binaryInputValue> ;
@@ -1959,14 +1959,14 @@
         bblocks:Schema ;
     rdfs:label "reference schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/reference/index.json> ],
+        [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.reference> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/reference/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/reference/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/reference/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "reference schema" ;
@@ -1990,32 +1990,32 @@
         bblocks:Schema ;
     rdfs:label "schema schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/schema/index.md> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/schema/index.json> ],
         [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.schema> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/schema/index.json> ] ;
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/schema/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "schema schema" ;
     skos:topConceptOf <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     dcat:keyword "ogcapi-processes",
         "schema" ;
-    prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/schema/schema.json> ;
-            prof:hasRole role:schema ],
+    prof:hasResource [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
+            dct:format "application/ld+json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/schema/context.jsonld> ;
+            prof:hasRole role:mapping ],
         [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/yaml" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/schema/schema.yaml> ;
             prof:hasRole role:schema ],
-        [ dct:conformsTo <https://www.w3.org/TR/json-ld11/> ;
-            dct:format "application/ld+json" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/schema/context.jsonld> ;
-            prof:hasRole role:mapping ] ;
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/json" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/schema/schema.json> ;
+            prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.reference> ;
     bblocks:hasSourceJsonLdContext <https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/schema/context.jsonld> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -2027,14 +2027,14 @@
         bblocks:Schema ;
     rdfs:label "statusCode schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/statusCode/index.json> ],
+        [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/statusCode/index.md> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.statusCode> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/statusCode/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.statusCode> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "statusCode schema" ;
@@ -2058,14 +2058,14 @@
         bblocks:Schema ;
     rdfs:label "schema schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.swagger.schema> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/schema/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/swagger/schema/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/swagger/schema/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.swagger.schema> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "schema schema" ;
@@ -2073,12 +2073,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/swagger/schema/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/swagger/schema/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/swagger/schema/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.reference> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -2090,14 +2090,14 @@
         bblocks:Schema ;
     rdfs:label "transmissionMode schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/transmissionMode/index.md> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.transmissionMode> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/transmissionMode/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/transmissionMode/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/transmissionMode/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "transmissionMode schema" ;
@@ -2129,7 +2129,7 @@
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/parameters/jobId/index.json> ],
         "local identifier of a job"^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "jobId parameter" ;
@@ -2147,12 +2147,12 @@
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
     dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/processSummary/index.json> ],
-        [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.processSummary> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/processSummary/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/processSummary/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.processSummary> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "processSummary schema" ;
@@ -2160,12 +2160,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processSummary/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processSummary/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/processSummary/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.descriptionType>,
         <bblocks://ogc.api.processes.v1.schemas.jobControlOptions>,
@@ -2180,14 +2180,14 @@
         bblocks:Schema ;
     rdfs:label "results schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.results> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/results/index.md> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.results> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/results/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "results schema" ;
@@ -2195,12 +2195,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/results/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/results/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/results/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.inlineOrRefData> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -2214,12 +2214,12 @@
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
     dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.statusInfo> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/statusInfo/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/statusInfo/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/statusInfo/index.json> ],
+        [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/statusInfo/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "statusInfo schema" ;
@@ -2227,12 +2227,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/statusInfo/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/statusInfo/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/statusInfo/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.link>,
         <bblocks://ogc.api.processes.v1.schemas.statusCode> ;
@@ -2245,14 +2245,14 @@
         bblocks:Schema ;
     rdfs:label "format schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.format> ],
+    dct:description [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/format/index.json> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/format/index.md> ],
-        [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/format/index.json> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.format> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "format schema" ;
@@ -2260,12 +2260,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/format/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/format/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/format/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -2276,14 +2276,14 @@
         bblocks:Schema ;
     rdfs:label "descriptionType schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.descriptionType> ],
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/descriptionType/index.md> ],
         [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/descriptionType/index.json> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/descriptionType/index.md> ] ;
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.descriptionType> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "descriptionType schema" ;
@@ -2309,14 +2309,14 @@
         bblocks:Schema ;
     rdfs:label "exception schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.exception> ],
-        [ dct:format "text/markdown" ;
+    dct:description [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/exception/index.md> ],
         [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/exception/index.json> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/exception/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.exception> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "exception schema" ;
@@ -2340,14 +2340,14 @@
         bblocks:Response ;
     rdfs:label "NotFound response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
+    dct:description [ dct:format "text/markdown" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/NotFound/index.md> ],
+        [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/NotFound/index.json> ],
         [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.NotFound> ],
-        [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/NotFound/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.NotFound> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "NotFound response" ;
@@ -2355,12 +2355,12 @@
     dcat:keyword "ogcapi-processes",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotFound/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotFound/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/NotFound/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.exception> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -2372,14 +2372,14 @@
         bblocks:Response ;
     rdfs:label "ServerError response" ;
     dct:created "2025-10-22T15:29:12.118638"^^xsd:dateTime ;
-    dct:description [ dct:format "text/html" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ServerError> ],
-        [ dct:format "application/json" ;
+    dct:description [ dct:format "application/json" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/responses/ServerError/index.json> ],
+        [ dct:format "text/html" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.responses.ServerError> ],
         [ dct:format "text/markdown" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/responses/ServerError/index.md> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "ServerError response" ;
@@ -2387,12 +2387,12 @@
     dcat:keyword "ogcapi-processes",
         "response" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/ServerError/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/ServerError/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/responses/ServerError/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:dependsOn <bblocks://ogc.api.processes.v1.schemas.exception> ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
@@ -2404,14 +2404,14 @@
         bblocks:Schema ;
     rdfs:label "link schema" ;
     dct:created "2025-10-22T15:29:12.046535"^^xsd:dateTime ;
-    dct:description [ dct:format "application/json" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/link/index.json> ],
-        [ dct:format "text/html" ;
+    dct:description [ dct:format "text/html" ;
             rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/bblock/ogc.api.processes.v1.schemas.link> ],
         [ dct:format "text/markdown" ;
-            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/link/index.md> ] ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/markdown/api/processes/v1/schemas/link/index.md> ],
+        [ dct:format "application/json" ;
+            rdfs:isDefinedBy <https://geolabs.github.io/bblocks-ogcapi-processes/build/generateddocs/json-full/api/processes/v1/schemas/link/index.json> ] ;
     dct:hasVersion "0.1" ;
-    dct:modified "2026-08-05"^^xsd:date ;
+    dct:modified "2026-11-09"^^xsd:date ;
     dct:source <https://docs.ogc.org/is/17-069r4/17-069r4.html> ;
     skos:inScheme <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     skos:prefLabel "link schema" ;
@@ -2419,12 +2419,12 @@
     dcat:keyword "ogcapi-processes",
         "schema" ;
     prof:hasResource [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
-            dct:format "application/yaml" ;
-            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/link/schema.yaml> ;
-            prof:hasRole role:schema ],
-        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
             dct:format "application/json" ;
             prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/link/schema.json> ;
+            prof:hasRole role:schema ],
+        [ dct:conformsTo <https://json-schema.org/draft/2020-12/schema> ;
+            dct:format "application/yaml" ;
+            prof:hasArtifact <https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/link/schema.yaml> ;
             prof:hasRole role:schema ] ;
     bblocks:status <http://www.opengis.net/def/status/under-development> ;
     bblocks:validationPassed true .
@@ -2444,7 +2444,7 @@
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
     dct:description """Adds a flexible, JSON schema version agnostic documentation to the OGC API Processes standard, supporting further profiling by combining with other Building Blocks.
 """^^<https://www.w3.org/ns/iana/media-types/text/markdown> ;
-    dct:modified "2026-08-05T20:11:40.034948"^^xsd:dateTime ;
+    dct:modified "2026-11-09T18:54:53.653478"^^xsd:dateTime ;
     void:sparqlEndpoint <https://defs-dev.opengis.net/fuseki/query> ;
     owl:imports <https://opengeospatial.github.io/bblocks/register.json> ;
     skos:hasTopConcept <bblocks://ogc.api.processes.v1.api>,
@@ -2528,22 +2528,22 @@
     skos:prefLabel "Building Blocks - OGC API Processes" ;
     prof:hasResource [ rdfs:label "This Building Blocks Register in JSON-LD format" ;
             dct:type "application/ld+json" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://geolabs.github.io/bblocks-ogcapi-processes/build/bblocks.jsonld> ],
-        [ rdfs:label "This Building Blocks Register in JSON format" ;
-            dct:type "application/json" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json> ],
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://geolabs.github.io/bblocks-ogcapi-processes/build/bblocks.jsonld> ],
         [ rdfs:label "This Building Blocks Register in RDF Turtle format" ;
             dct:type "text/turtle" ;
-            ns2:relation <http://www.iana.org/assignments/relation/self> ;
-            ns1:hasTarget <https://geolabs.github.io/bblocks-ogcapi-processes/build/bblocks.ttl> ] ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://geolabs.github.io/bblocks-ogcapi-processes/build/bblocks.ttl> ],
+        [ rdfs:label "This Building Blocks Register in JSON format" ;
+            dct:type "application/json" ;
+            ns1:relation <http://www.iana.org/assignments/relation/self> ;
+            ns2:hasTarget <https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json> ] ;
     foaf:homepage <https://geolabs.github.io/bblocks-ogcapi-processes/> ;
     bblocks:hasValidationReport <https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/report.html> .
 
-_:N0a75d295aa634df19bd688bf49cc542d a prov:Agent,
+_:Neefb188f09544961a07776a13d482239 a prov:Agent,
         schema:SoftwareApplication ;
     rdfs:label "OGC-NA tools" ;
-    dct:hasVersion "0.5.31" ;
+    dct:hasVersion "0.6.0" ;
     rdfs:seeAlso <https://github.com/opengeospatial/ogc-na-tools> .
 

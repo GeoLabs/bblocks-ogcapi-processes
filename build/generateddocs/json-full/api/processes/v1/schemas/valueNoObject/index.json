@@ -6,7 +6,7 @@
   "dateTimeAddition": "2026-08-05T00:00:00.000000",
   "register": "ogcapi-processes",
   "version": "0.1",
-  "dateOfLastChange": "2026-08-05",
+  "dateOfLastChange": "2026-11-09",
   "sources": [
     {
       "title": "OGC API - Processes - Part 1: Core",
@@ -22,8 +22,8 @@
   "shaclShapes": {},
   "dependsOn": [
     "ogc.api.processes.v1.schemas.bbox",
-    "ogc.api.processes.v1.schemas.collectionValue",
-    "ogc.api.processes.v1.schemas.binaryValue"
+    "ogc.api.processes.v1.schemas.binaryValue",
+    "ogc.api.processes.v1.schemas.collectionValue"
   ],
   "schema": {
     "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/valueNoObject/schema.yaml",
@@ -33,7 +33,7 @@
   "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/valueNoObject/resolvedProperties.json",
   "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/v1/schemas/valueNoObject/",
   "validationPassed": true,
-  "annotatedSchema": "anyOf:\n- type: string\n- type: number\n- type: integer\n- type: boolean\n- type: array\n  items: {}\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryValue/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/collectionValue/schema.yaml\n",
+  "annotatedSchema": "anyOf:\n- type: string\n- type: number\n- type: integer\n- type: boolean\n- type: array\n  items: {}\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/binaryValue/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/bbox/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/v1/schemas/collectionValue/schema.yaml\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.v1.schemas.valueNoObject\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '0.1'\n  dateOfLastChange: '2026-11-09'\n",
   "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
   "gitPath": "_sources/v1/schemas/valueNoObject"
 }
