@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: 'A sample API conforming to the standard OGC API - Processes - Part 1 : Core'
+  version: 1.0.0
+  description: This document is an API definition document provided alongside the
+    OGC API - Processes standard. The OGC API - Processes Standard specifies a processing
+    interface to communicate over a RESTful protocol using JavaScript Object Notation
+    (JSON) encodings. The specification allows for the wrapping of computational tasks
+    into executable processes that can be offered by a server and be invoked by a
+    client application.
+  contact:
+    name: Open Geospatial Consortium (OGC)
+    email: standards-team@ogc.org
+    url: https://www.ogc.org/contacts
+  license:
+    name: OGC license
+    url: http://www.ogc.org/legal/
+paths:
+  /:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/LandingPage/openapi.yaml
+  /conformance:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/Conformance/openapi.yaml
+  /processes:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/ProcessList/openapi.yaml
+  /processes/{processID}:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/ProcessDescription/openapi.yaml
+  /jobs:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/JobList/openapi.yaml
+  /processes/{processID}/execution:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/Execution/openapi.yaml
+  /jobs/{jobId}:
+    get:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/Job/openapi.yaml#/get
+    delete:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/DismissJob/openapi.yaml#/delete
+  /jobs/{jobId}/results:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/JobResult/openapi.yaml
+servers:
+- description: Example server
+  url: http://example.org/ogcapi

@@ -1,0 +1,34 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.operations.oProcessList",
+  "name": "oProcessList",
+  "status": "under-development",
+  "dateTimeAddition": "2026-11-10T00:00:00Z",
+  "dateOfLastChange": "2026-11-10",
+  "itemClass": "model",
+  "version": "2.0",
+  "register": "ogcapi-processes",
+  "sources": [
+    {
+      "title": "OGC API - Processes pinned official Core component",
+      "link": "https://raw.githubusercontent.com/opengeospatial/ogcapi-processes/0f9c3d88ccdb1802f6356fd39e7963df7b8dadae/openapi/paths/processes-core/operations/oProcessList.yaml"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "official",
+    "part1-v2"
+  ],
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v2.responses.ProcessList"
+  ],
+  "sourceOpenAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/operations/oProcessList/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/operations/oProcessList/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/operations/oProcessList/",
+  "validationPassed": true,
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/operations/oProcessList"
+}

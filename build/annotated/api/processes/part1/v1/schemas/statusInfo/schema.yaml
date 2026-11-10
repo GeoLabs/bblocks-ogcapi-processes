@@ -1,0 +1,43 @@
+type: object
+required:
+- jobID
+- status
+- type
+properties:
+  processID:
+    type: string
+  type:
+    type: string
+    enum:
+    - process
+  jobID:
+    type: string
+  status:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/statusCode/schema.yaml
+  message:
+    type: string
+  created:
+    type: string
+    format: date-time
+  started:
+    type: string
+    format: date-time
+  finished:
+    type: string
+    format: date-time
+  updated:
+    type: string
+    format: date-time
+  progress:
+    type: integer
+    minimum: 0
+    maximum: 100
+  links:
+    type: array
+    items:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/link/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v1.schemas.statusInfo
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '1.0'
+  dateOfLastChange: '2026-11-10'

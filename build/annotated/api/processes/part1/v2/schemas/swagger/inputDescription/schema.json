@@ -1,0 +1,42 @@
+{
+  "allOf": [
+    {
+      "$ref": "https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/descriptionType.yaml"
+    },
+    {
+      "type": "object",
+      "required": [
+        "schema"
+      ],
+      "properties": {
+        "minOccurs": {
+          "type": "integer",
+          "default": 1
+        },
+        "maxOccurs": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "default": 1
+            },
+            {
+              "type": "string",
+              "enum": [
+                "unbounded"
+              ]
+            }
+          ]
+        },
+        "schema": {
+          "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/swagger/schema/schema.json"
+        }
+      }
+    }
+  ],
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v2.schemas.swagger.inputDescription",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "2.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

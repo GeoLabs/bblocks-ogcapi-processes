@@ -1,0 +1,15 @@
+get:
+  tags:
+  - Conformance
+  operationId: getConformance
+  summary: Retrieve the set of OGC API conformance classes that are supported by this
+    service.
+  parameters:
+  - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/unspecified/f-metadata/openapi.yaml
+  responses:
+    '200':
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ConformanceDeclaration/openapi.yaml
+    '406':
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/common-core/rNotAcceptable/openapi.yaml
+    '500':
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ServerError/openapi.yaml

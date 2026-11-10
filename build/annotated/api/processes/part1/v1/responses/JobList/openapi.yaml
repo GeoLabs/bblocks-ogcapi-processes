@@ -1,0 +1,5 @@
+description: A list of jobs for this process.
+content:
+  application/json:
+    schema:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/jobList/schema.yaml

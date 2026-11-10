@@ -1,0 +1,7 @@
+additionalProperties:
+  $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/inlineOrRefData/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v1.schemas.results
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '1.0'
+  dateOfLastChange: '2026-11-10'

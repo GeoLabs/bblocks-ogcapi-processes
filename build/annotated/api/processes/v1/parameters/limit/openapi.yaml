@@ -1,8 +1,0 @@
-in: query
-name: limit
-required: false
-schema:
-  default: 10
-  maximum: 1000
-  minimum: 1
-  type: integer

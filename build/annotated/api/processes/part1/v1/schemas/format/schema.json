@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "properties": {
+    "mediaType": {
+      "type": "string"
+    },
+    "encoding": {
+      "type": "string"
+    },
+    "schema": {
+      "oneOf": [
+        {
+          "type": "string",
+          "format": "url"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    }
+  },
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v1.schemas.format",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "1.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

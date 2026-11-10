@@ -1,0 +1,12 @@
+{
+  "description": "A safe Compact URI (CURIE) identifying well-known entity.",
+  "example": "[ogc-profile:my-profile]",
+  "type": "string",
+  "pattern": "^\\[[a-zA-Z0-9._-]+:[a-zA-Z0-9._-]+\\]$",
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v2.schemas.processes-core.safeCurie",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "2.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

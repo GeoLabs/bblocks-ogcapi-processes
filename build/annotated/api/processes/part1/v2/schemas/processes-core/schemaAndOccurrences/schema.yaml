@@ -1,0 +1,21 @@
+type: object
+required:
+- schema
+properties:
+  schema:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+  minOccurs:
+    type: integer
+    default: 1
+  maxOccurs:
+    oneOf:
+    - type: integer
+      default: 1
+    - type: string
+      enum:
+      - unbounded
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.processes-core.schemaAndOccurrences
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

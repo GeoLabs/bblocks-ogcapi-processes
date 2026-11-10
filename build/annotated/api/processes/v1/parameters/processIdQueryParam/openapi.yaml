@@ -1,7 +1,0 @@
-in: query
-name: processID
-required: false
-schema:
-  items:
-    type: string
-  type: array

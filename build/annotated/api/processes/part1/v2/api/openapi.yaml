@@ -1,0 +1,58 @@
+openapi: 3.0.0
+info:
+  version: 2.0rc1
+  title: OGC API - Processes
+  description: Example API Definition for OGC API - Processes
+  contact:
+    name: Open Geospatial Consortium
+    email: info@ogc.org
+  license:
+    name: OGC License
+    url: http://www.opengeospatial.org/legal/
+servers:
+- description: 'Example Server 1 (GNOSIS, supporting Part 1: Core /Sync and Part 3:
+    Workflows)'
+  url: https://maps.gnosis.earth/ogcapi
+- description: Example Server 2 (CRIM Hirondelle, supporting Parts 1, 2, 3, 4)
+  url: https://hirondelle.crim.ca/ogcapi/processes
+paths:
+  /:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/LandingPage/openapi.yaml
+  /conformance:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/Conformance/openapi.yaml
+  /processes:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/ProcessList/openapi.yaml
+  /processes/{processID}:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/ProcessDescription/openapi.yaml
+  /processes/{processID}/execution:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/Execution/openapi.yaml
+  /jobs:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/JobList/openapi.yaml
+  /jobs/{jobID}:
+    get:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/Job/openapi.yaml#/get
+    delete:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/DismissJob/openapi.yaml#/delete
+  /jobs/{jobID}/results:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/JobResult/openapi.yaml
+  /api:
+    get:
+      tags:
+      - API
+      operationId: getAPI
+      summary: Retrieve this API definition.
+      parameters:
+      - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/unspecified/f-metadata/openapi.yaml
+      responses:
+        '200':
+          $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/common-core/rAPI/openapi.yaml
+        '406':
+          $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/common-core/rNotAcceptable/openapi.yaml
+        '500':
+          $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ServerError/openapi.yaml
+components: {}
+definitions:
+  Context:
+    $ref: https://www.w3.org/submissions/prov-jsonld/schema.json#definitions/Context
+  ArrayOfValues:
+    $ref: https://www.w3.org/submissions/prov-jsonld/schema.json#definitions/ArrayOfValues

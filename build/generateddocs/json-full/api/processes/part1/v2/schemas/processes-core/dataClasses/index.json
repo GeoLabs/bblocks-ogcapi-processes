@@ -1,0 +1,38 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.schemas.processes-core.dataClasses",
+  "name": "dataClasses",
+  "status": "under-development",
+  "dateTimeAddition": "2026-11-10T00:00:00Z",
+  "dateOfLastChange": "2026-11-10",
+  "itemClass": "schema",
+  "version": "2.0",
+  "register": "ogcapi-processes",
+  "sources": [
+    {
+      "title": "OGC API - Processes pinned official Core component",
+      "link": "https://raw.githubusercontent.com/opengeospatial/ogcapi-processes/0f9c3d88ccdb1802f6356fd39e7963df7b8dadae/openapi/schemas/processes-core/dataClasses.yaml"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "official",
+    "part1-v2"
+  ],
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v2.schemas.processes-core.safeCurie"
+  ],
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/dataClasses/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/dataClasses/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/processes-core/dataClasses/schema.yaml",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/dataClasses/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/processes-core/dataClasses/",
+  "validationPassed": true,
+  "annotatedSchema": "description: 'Profiling requirements that the specified value, link, collection reference,\n  selected output, or input/output\n\n  definition must meet or adapt to, depending on context, in order to make it adequate\n  for the process execution.\n\n  These requirements are represented as URIs or safe CURIEs providing resolvable profiles\n  applicable to the context.\n\n  They directly corresponds to link references that can be employed for *Content Negotiation\n  by Profile*.'\ntype: object\nproperties:\n  dataClasses:\n    type: array\n    items:\n      anyOf:\n      - description: URI to a registered profile entity.\n        type: string\n        format: uri\n      - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/safeCurie/schema.yaml\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v2.schemas.processes-core.dataClasses\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '2.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/schemas/processes-core/dataClasses"
+}

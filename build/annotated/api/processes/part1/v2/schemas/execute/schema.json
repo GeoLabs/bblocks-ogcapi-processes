@@ -1,0 +1,26 @@
+{
+  "allOf": [
+    {
+      "type": "object",
+      "properties": {
+        "process": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URI to the description of the process that should be executed."
+        }
+      }
+    },
+    {
+      "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/responseCollection/schema.json"
+    },
+    {
+      "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/executeBase/schema.json"
+    }
+  ],
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v2.schemas.execute",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "2.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

@@ -1,0 +1,16 @@
+get:
+  summary: retrieve the status of a job
+  description: "Shows the status of a job.\n\n For more information, see [Section
+    7.12](https://docs.ogc.org/is/18-062/18-062.html#sc_retrieve_status_info).\n"
+  operationId: getStatus
+  tags:
+  - Status
+  parameters:
+  - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/parameters/jobId/openapi.yaml
+  responses:
+    200:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/responses/Status/openapi.yaml
+    404:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/responses/NotFound/openapi.yaml
+    500:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/responses/ServerError/openapi.yaml

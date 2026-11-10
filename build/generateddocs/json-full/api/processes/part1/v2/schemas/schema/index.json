@@ -1,0 +1,36 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.schemas.schema",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (2.0 draft, OGC 18-062r3)",
+      "link": "https://docs.ogc.org/DRAFTS/18-062r3.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "schema",
+  "itemClass": "schema",
+  "shaclShapes": {},
+  "ldContext": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/schema/context.jsonld",
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/schema/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/schema/schema.yaml",
+  "sourceLdContext": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/schema/context.jsonld",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/schema/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/schema/",
+  "validationPassed": true,
+  "annotatedSchema": "description: Attributes of the features or fields of a coverage range. Defined by\n  a subset of the JSON Schema for the properties of a feature\ntype: object\nrequired:\n- type\n- properties\nproperties:\n  type:\n    type: string\n    enum:\n    - object\n  required:\n    type: array\n    minItems: 1\n    items:\n      type: string\n  properties:\n    type: object\n    default: {}\n    additionalProperties:\n      type: object\n      properties:\n        title:\n          type: string\n        description:\n          type: string\n        type:\n          type: string\n          enum:\n          - array\n          - boolean\n          - integer\n          - 'null'\n          - number\n          - object\n          - string\n        enum:\n          type: array\n          minItems: 1\n          items: {}\n          uniqueItems: true\n        format:\n          type: string\n        contentMediaType:\n          type: string\n        maximum:\n          type: number\n        exclusiveMaximum:\n          type: number\n        minimum:\n          type: number\n        exclusiveMinimum:\n          type: number\n        pattern:\n          type: string\n          format: regex\n        maxItems:\n          type: integer\n          minimum: 0\n        minItems:\n          type: integer\n          default: 0\n          minimum: 0\n        x-ogc-definition:\n          type: string\n          format: uri\n        x-ogc-unit:\n          type: string\n        x-ogc-unitLang:\n          type: string\nx-jsonld-vocab: https://w3id.org/ogc/api/schema/\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v2.schemas.schema\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '2.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/schemas/schema"
+}

@@ -1,0 +1,55 @@
+post:
+  summary: execute a process.
+  description: 'Executes a process (this may result in the creation of a job resource
+    e.g., for _asynchronous execution_).
+
+
+    For more information, see [Section 7.9](https://docs.ogc.org/is/18-062r2/18-062r2.html#sc_create_job).
+
+    '
+  operationId: execute
+  tags:
+  - Processes
+  - Core
+  parameters:
+  - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/processIdPathParam/openapi.yaml
+  - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/processes-core/response/openapi.yaml
+  - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/processes-core/prefer-header-execution/openapi.yaml
+  requestBody:
+    description: 'An execution request specifying any inputs for the process to execute,
+      and optionally to select specific outputs.
+
+      With support for _Part 3: Workflows and chaining_, this execution request may
+      specify a complex processing workflow
+
+      e.g., including nested processes and OGC API collections as inputs.'
+    required: true
+    content:
+      application/json:
+        schema:
+          $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/execute/schema.yaml
+  responses:
+    200:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ExecuteSync/openapi.yaml
+    201:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ExecuteAsync/openapi.yaml
+    204:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/processes-core/rEmpty/openapi.yaml
+    303:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/processes-core/rExecuteCollectionRedirect/openapi.yaml
+    404:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/NotFound/openapi.yaml
+    500:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ServerError/openapi.yaml
+  callbacks:
+    jobCompleted:
+      '{$request.body#/subscriber/successUri}':
+        post:
+          requestBody:
+            content:
+              application/json:
+                schema:
+                  $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/results/schema.yaml
+          responses:
+            200:
+              description: Results received successfully

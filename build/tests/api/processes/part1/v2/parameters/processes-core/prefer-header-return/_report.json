@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for ogc.api.processes.part1.v2.parameters.processes-core.prefer-header-return - prefer-header-return",
+  "bblockName": "prefer-header-return",
+  "bblockId": "ogc.api.processes.part1.v2.parameters.processes-core.prefer-header-return",
+  "generated": "2026-11-10T14:39:40.011423+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

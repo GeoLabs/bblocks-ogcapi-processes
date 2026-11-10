@@ -1,0 +1,14 @@
+get:
+  tags:
+  - Landing Page
+  operationId: getLandingPage
+  summary: Retrieve the OGC API landing page for this service.
+  parameters:
+  - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/unspecified/f-metadata/openapi.yaml
+  responses:
+    '200':
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/LandingPage/openapi.yaml
+    '406':
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/common-core/rNotAcceptable/openapi.yaml
+    '500':
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/responses/ServerError/openapi.yaml

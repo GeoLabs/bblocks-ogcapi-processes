@@ -1,0 +1,5 @@
+description: Information about the available processes
+content:
+  application/json:
+    schema:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processList/schema.yaml

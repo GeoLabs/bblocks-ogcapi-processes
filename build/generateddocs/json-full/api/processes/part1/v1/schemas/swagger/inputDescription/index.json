@@ -1,0 +1,38 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v1.schemas.swagger.inputDescription",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (version 1.0, OGC 18-062r2)",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "inputDescription",
+  "itemClass": "schema",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v1.schemas.descriptionType",
+    "ogc.api.processes.part1.v1.schemas.swagger.schema"
+  ],
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/inputDescription/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/inputDescription/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/swagger/inputDescription/schema.yaml",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/inputDescription/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/swagger/inputDescription/",
+  "validationPassed": true,
+  "annotatedSchema": "allOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/descriptionType/schema.yaml\n- type: object\n  required:\n  - schema\n  properties:\n    minOccurs:\n      type: integer\n      default: 1\n    maxOccurs:\n      oneOf:\n      - type: integer\n        default: 1\n      - type: string\n        enum:\n        - unbounded\n    schema:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/schema/schema.yaml\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v1.schemas.swagger.inputDescription\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '1.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v1/schemas/swagger/inputDescription"
+}

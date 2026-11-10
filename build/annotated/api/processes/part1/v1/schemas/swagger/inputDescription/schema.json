@@ -1,0 +1,42 @@
+{
+  "allOf": [
+    {
+      "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/descriptionType/schema.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "schema"
+      ],
+      "properties": {
+        "minOccurs": {
+          "type": "integer",
+          "default": 1
+        },
+        "maxOccurs": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "default": 1
+            },
+            {
+              "type": "string",
+              "enum": [
+                "unbounded"
+              ]
+            }
+          ]
+        },
+        "schema": {
+          "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/schema/schema.json"
+        }
+      }
+    }
+  ],
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v1.schemas.swagger.inputDescription",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "1.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

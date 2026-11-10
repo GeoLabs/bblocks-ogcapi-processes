@@ -1,0 +1,12 @@
+anyOf:
+- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/apis/schema.yaml
+- type: string
+  enum:
+  - ogc-api-processes
+  - openeo
+  default: ogc-api-processes
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.processes-core.processingEntityType
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

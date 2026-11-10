@@ -1,0 +1,28 @@
+type: object
+properties:
+  title:
+    type: string
+  description:
+    type: string
+  keywords:
+    type: array
+    items:
+      type: string
+  metadata:
+    type: array
+    items:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/metadata/schema.yaml
+  additionalParameters:
+    allOf:
+    - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/metadata/schema.yaml
+    - type: object
+      properties:
+        parameters:
+          type: array
+          items:
+            $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/additionalParameter/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v1.schemas.descriptionType
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '1.0'
+  dateOfLastChange: '2026-11-10'

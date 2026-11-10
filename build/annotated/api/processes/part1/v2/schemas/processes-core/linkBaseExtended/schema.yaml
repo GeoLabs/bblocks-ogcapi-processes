@@ -1,0 +1,27 @@
+type: object
+properties:
+  method:
+    type: string
+    enum:
+    - POST
+    - GET
+    - DELETE
+    - PATCH
+  body: {}
+  headers:
+    type: object
+    additionalProperties:
+      type: string
+  profile:
+    anyOf:
+    - type: string
+      format: uri
+    - type: array
+      items:
+        type: string
+        format: uri
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.processes-core.linkBaseExtended
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

@@ -1,0 +1,30 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.parameters.processIdPathParam",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.178084",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (2.0 draft, OGC 18-062r3)",
+      "link": "https://docs.ogc.org/DRAFTS/18-062r3.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "parameter"
+  ],
+  "name": "processIdPathParam",
+  "itemClass": "parameter",
+  "shaclShapes": {},
+  "sourceOpenAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/parameters/processIdPathParam/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/parameters/processIdPathParam/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/parameters/processIdPathParam/",
+  "validationPassed": true,
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/parameters/processIdPathParam"
+}

@@ -1,0 +1,20 @@
+path	@id	schema
+/type		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/required		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/title		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/description		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/type		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/enum		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/format		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/contentMediaType		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/maximum		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/exclusiveMaximum		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/minimum		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/exclusiveMinimum		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/pattern		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/maxItems		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/minItems		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/x-ogc-definition		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/x-ogc-unit		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml
+/properties/x-ogc-unitLang		/github/workspace/build/annotated/api/processes/part1/v2/schemas/schema/schema.yaml

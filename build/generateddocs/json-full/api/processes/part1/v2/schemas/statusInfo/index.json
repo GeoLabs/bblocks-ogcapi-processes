@@ -1,0 +1,41 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.schemas.statusInfo",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (2.0 draft, OGC 18-062r3)",
+      "link": "https://docs.ogc.org/DRAFTS/18-062r3.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "statusInfo",
+  "itemClass": "schema",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v2.schemas.descriptionType",
+    "ogc.api.processes.part1.v2.schemas.exception",
+    "ogc.api.processes.part1.v2.schemas.link",
+    "ogc.api.processes.part1.v2.schemas.processes-core.processingEntityType",
+    "ogc.api.processes.part1.v2.schemas.statusCode"
+  ],
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/statusInfo/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/statusInfo/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/statusInfo/schema.yaml",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/statusInfo/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/statusInfo/",
+  "validationPassed": true,
+  "annotatedSchema": "allOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/descriptionType/schema.yaml\n- type: object\n  required:\n  - id\n  - status\n  - processingEntityType\n  properties:\n    id:\n      type: string\n    processID:\n      type: string\n      format: uri\n    processingEntityType:\n      allOf:\n      - description: 'The type of entity that created the job and is doing the processing.\n\n          This includes all the data access apis listed in \"apis.yaml\" plus\n\n          the processing APIs of OGC API Processes and OpenEO.'\n      - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/processingEntityType/schema.yaml\n    profileEntityType:\n      allOf:\n      - description: 'The type of entity requesting this status information.  This\n          may\n\n          be differernt than the processing entity.  For example, the\n\n          processing entity may be OGC API Processes but the status\n\n          information is requested via the OpenEO API.'\n      - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/processingEntityType/schema.yaml\n    request:\n      oneOf:\n      - type: string\n      - type: object\n      - $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/link/schema.yaml\n    status:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/statusCode/schema.yaml\n    message:\n      type: string\n    exception:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/exception/schema.yaml\n    created:\n      type: string\n      format: date-time\n    started:\n      type: string\n      format: date-time\n    finished:\n      type: string\n      format: date-time\n    updated:\n      type: string\n      format: date-time\n    progress:\n      type: integer\n      minimum: 0\n      maximum: 100\n    links:\n      type: array\n      items:\n        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/link/schema.yaml\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v2.schemas.statusInfo\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '2.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/schemas/statusInfo"
+}

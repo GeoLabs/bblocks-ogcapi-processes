@@ -1,0 +1,36 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v1.paths.DismissJob",
+  "status": "under-development",
+  "dateTimeAddition": "2025-12-11T09:00:00.000000",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API processes - Part 1 - Core",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "path"
+  ],
+  "name": "Dismiss Job",
+  "itemClass": "path",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v1.parameters.jobId",
+    "ogc.api.processes.part1.v1.responses.NotFound",
+    "ogc.api.processes.part1.v1.responses.ServerError",
+    "ogc.api.processes.part1.v1.responses.Status"
+  ],
+  "sourceOpenAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/paths/DismissJob/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/paths/DismissJob/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/paths/DismissJob/",
+  "validationPassed": true,
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v1/paths/DismissJob"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Validation report for ogc.api.processes.part1.v2.schemas.processes-core.executeBase - executeBase",
+  "bblockName": "executeBase",
+  "bblockId": "ogc.api.processes.part1.v2.schemas.processes-core.executeBase",
+  "generated": "2026-11-10T14:39:40.416553+00:00",
+  "result": false,
+  "items": [
+    {
+      "source": {
+        "type": "JSONLD_CONTEXT",
+        "requireFail": false,
+        "filename": "build/annotated/api/processes/part1/v2/schemas/processes-core/executeBase/context.jsonld",
+        "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/executeBase/context.jsonld",
+        "language": "jsonld"
+      },
+      "result": false,
+      "hasWarnings": false,
+      "sections": [
+        {
+          "name": "JSON_LD",
+          "title": "JSON-LD",
+          "entries": [
+            {
+              "isError": true,
+              "message": "Error generating or validating JSON-LD context: Error resolving reference ./cql2-definitions.yaml#/definitions/andOrExpression from https://raw.githubusercontent.com/opengeospatial/ogcapi-processes/0f9c3d88ccdb1802f6356fd39e7963df7b8dadae/openapi/schemas/cql2/cql2.yaml: could not determine a constructor for the tag 'tag:yaml.org,2002:value'\n  in \"<byte string>\", line 51, column 13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 1,
+    "passed": 0,
+    "failed": 1
+  }
+}

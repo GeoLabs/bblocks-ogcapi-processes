@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "format": {
+      "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/format/schema.json"
+    },
+    "transmissionMode": {
+      "$ref": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/transmissionMode/schema.json"
+    }
+  },
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v1.schemas.output",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "1.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

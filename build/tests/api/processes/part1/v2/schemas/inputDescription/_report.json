@@ -1,0 +1,139 @@
+{
+  "title": "Validation report for ogc.api.processes.part1.v2.schemas.inputDescription - inputDescription",
+  "bblockName": "inputDescription",
+  "bblockId": "ogc.api.processes.part1.v2.schemas.inputDescription",
+  "generated": "2026-11-10T14:39:40.345164+00:00",
+  "result": true,
+  "items": [
+    {
+      "source": {
+        "type": "TEST_RESOURCE",
+        "requireFail": true,
+        "filename": "_sources/part1/v2/schemas/inputDescription/tests/legacy-schema-ref-fail.json",
+        "url": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/inputDescription/tests/legacy-schema-ref-fail.json",
+        "language": "json"
+      },
+      "result": true,
+      "hasWarnings": false,
+      "sections": [
+        {
+          "name": "GENERAL",
+          "title": "General",
+          "entries": [
+            {
+              "op": "require-fail",
+              "isError": false,
+              "message": "Test was expected to fail and it did."
+            }
+          ]
+        },
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using legacy-schema-ref-fail.json from test resources"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "legacy-schema-ref-fail.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD legacy-schema-ref-fail.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "legacy-schema-ref-fail.ttl",
+              "size": 5,
+              "isError": false,
+              "message": "Output Turtle legacy-schema-ref-fail.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": false,
+              "exception": "ValidationError",
+              "errorMessage": "'type' is a required property",
+              "isError": true,
+              "message": "ValidationError: 'type' is a required property\n\nFailed validating 'required' in schema['allOf'][4]['properties']['schema']:\n    {'description': 'Attributes of the features or fields of a coverage '\n                    'range. Defined by a subset of the JSON Schema for the '\n                    'properties of a feature',\n     'type': 'object',\n     'required': ['type', 'properties'],\n     'properties': {'type': {'type': 'string', 'enum': ['object']},\n                    'required': {'type': 'array',\n                                 'minItems': 1,\n                                 'items': {'type': 'string'}},\n                    'properties': {'type': 'object',\n                                   'default': {},\n                                   'additionalProperties': {'type': 'object',\n                                                            'properties': {'title': {'type': 'string'},\n                                                                           'description': {'type': 'string'},\n                                                                           'type': {'type': 'string',\n                                                                                    'enum': ['array',\n                                                                                             'boolean',\n                                                                                             'integer',\n                                                                                             'null',\n                                                                                             'number',\n                                                                                             'object',\n                                                                                             'string']},\n                                                                           'enum': {'type': 'array',\n                                                                                    'minItems': 1,\n                                                                                    'items': {},\n                                                                                    'uniqueItems': True},\n                                                                           'format': {'type': 'string'},\n                                                                           'contentMediaType': {'type': 'string'},\n                                                                           'maximum': {'type': 'number'},\n                                                                           'exclusiveMaximum': {'type': 'number'},\n                                                                           'minimum': {'type': 'number'},\n                                                                           'exclusiveMinimum': {'type': 'number'},\n                                                                           'pattern': {'type': 'string',\n                                                                                       'format': 'regex'},\n                                                                           'maxItems': {'type': 'integer',\n                                                                                        'minimum': 0},\n                                                                           'minItems': {'type': 'integer',\n                                                                                        'default': 0,\n                                                                                        'minimum': 0},\n                                                                           'x-ogc-definition': {'type': 'string',\n                                                                                                'format': 'uri'},\n                                                                           'x-ogc-unit': {'type': 'string'},\n                                                                           'x-ogc-unitLang': {'type': 'string'}}}}},\n     'x-jsonld-vocab': 'https://w3id.org/ogc/api/schema/',\n     'x-bblocks-metadata': {'itemIdentifier': 'ogc.api.processes.part1.v2.schemas.schema',\n                            'register': 'https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json',\n                            'version': '2.0',\n                            'dateOfLastChange': '2026-11-10'}}\n\nOn instance['schema']:\n    {'$ref': 'bblocks://ogc.geo.common.parameters.bbox'}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": {
+        "type": "EXAMPLE",
+        "requireFail": false,
+        "filename": "build/tests/api/processes/part1/v2/schemas/inputDescription/example_1_1.json",
+        "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/api/processes/part1/v2/schemas/inputDescription/example_1_1.json",
+        "exampleIndex": 1,
+        "snippetIndex": 1,
+        "language": "application/json"
+      },
+      "result": true,
+      "hasWarnings": false,
+      "sections": [
+        {
+          "name": "FILES",
+          "title": "Files",
+          "entries": [
+            {
+              "isError": false,
+              "message": "Using examples/complex.json from examples"
+            },
+            {
+              "op": "jsonld-uplift",
+              "isError": false,
+              "message": "JSON-LD context is present - uplifting"
+            },
+            {
+              "op": "jsonld-create",
+              "filename": "example_1_1.jsonld",
+              "isError": false,
+              "message": "Output JSON-LD example_1_1.jsonld created"
+            },
+            {
+              "op": "ttl-create",
+              "empty": false,
+              "filename": "example_1_1.ttl",
+              "size": 12,
+              "isError": false,
+              "message": "Output Turtle example_1_1.ttl created"
+            }
+          ]
+        },
+        {
+          "name": "JSON_SCHEMA",
+          "title": "JSON Schema",
+          "entries": [
+            {
+              "op": "validation",
+              "result": true,
+              "isError": false,
+              "message": "Validation passed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 2,
+    "passed": 2,
+    "failed": 0
+  }
+}

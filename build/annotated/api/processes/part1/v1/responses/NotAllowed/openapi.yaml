@@ -1,0 +1,8 @@
+description: The method is not allowed at the path.
+content:
+  application/json:
+    schema:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/exception/schema.yaml
+  text/html:
+    schema:
+      type: string

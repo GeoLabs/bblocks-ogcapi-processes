@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for ogc.api.processes.part1.v1.schemas.transmissionMode - transmissionMode",
+  "bblockName": "transmissionMode",
+  "bblockId": "ogc.api.processes.part1.v1.schemas.transmissionMode",
+  "generated": "2026-11-10T14:39:39.999055+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

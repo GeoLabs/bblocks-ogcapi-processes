@@ -1,0 +1,10 @@
+Validation report for ogc.api.processes.part1.v2.schemas.common-core.confClasses - confClasses
+Generated 2026-11-10T14:39:40.058213+00:00
+=== Files ===
+Using example_1_1.json from examples
+=== End Files ===
+
+=== JSON Schema ===
+Validation passed
+=== End JSON Schema ===
+

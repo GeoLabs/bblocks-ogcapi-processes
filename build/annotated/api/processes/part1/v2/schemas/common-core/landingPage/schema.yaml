@@ -1,0 +1,26 @@
+type: object
+required:
+- links
+properties:
+  title:
+    type: string
+    example: Example processing server
+  description:
+    type: string
+    example: Example server implementing the OGC API - Processes 1.0 Standard
+  attribution:
+    type: string
+    title: attribution for the Processes API
+    description: The `attribution` should be short and intended for presentation to
+      a user, for example, in a corner of a map. Parts of the text can be links to
+      other resources if additional information is needed. The string can include
+      HTML markup.
+  links:
+    type: array
+    items:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/common-core/link/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.common-core.landingPage
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

@@ -1,0 +1,42 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v1.api",
+  "name": "OGC API - Processes: Part 1",
+  "status": "under-development",
+  "dateTimeAddition": "2024-03-22T11:40:00+01:00",
+  "itemClass": "api",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API Processes",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes"
+  ],
+  "highlighted": true,
+  "abstract": "This building block corresponds to OGC API Processes Part 1",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v1.paths.Conformance",
+    "ogc.api.processes.part1.v1.paths.DismissJob",
+    "ogc.api.processes.part1.v1.paths.Execution",
+    "ogc.api.processes.part1.v1.paths.Job",
+    "ogc.api.processes.part1.v1.paths.JobList",
+    "ogc.api.processes.part1.v1.paths.JobResult",
+    "ogc.api.processes.part1.v1.paths.LandingPage",
+    "ogc.api.processes.part1.v1.paths.ProcessDescription",
+    "ogc.api.processes.part1.v1.paths.ProcessList"
+  ],
+  "sourceOpenAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/api/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/api/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/api/",
+  "validationPassed": true,
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v1/api"
+}

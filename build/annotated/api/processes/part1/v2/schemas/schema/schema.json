@@ -1,0 +1,104 @@
+{
+  "description": "Attributes of the features or fields of a coverage range. Defined by a subset of the JSON Schema for the properties of a feature",
+  "type": "object",
+  "required": [
+    "type",
+    "properties"
+  ],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "object"
+      ]
+    },
+    "required": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "properties": {
+      "type": "object",
+      "default": {},
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "array",
+              "boolean",
+              "integer",
+              "null",
+              "number",
+              "object",
+              "string"
+            ]
+          },
+          "enum": {
+            "type": "array",
+            "minItems": 1,
+            "items": {},
+            "uniqueItems": true
+          },
+          "format": {
+            "type": "string"
+          },
+          "contentMediaType": {
+            "type": "string"
+          },
+          "maximum": {
+            "type": "number"
+          },
+          "exclusiveMaximum": {
+            "type": "number"
+          },
+          "minimum": {
+            "type": "number"
+          },
+          "exclusiveMinimum": {
+            "type": "number"
+          },
+          "pattern": {
+            "type": "string",
+            "format": "regex"
+          },
+          "maxItems": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "minItems": {
+            "type": "integer",
+            "default": 0,
+            "minimum": 0
+          },
+          "x-ogc-definition": {
+            "type": "string",
+            "format": "uri"
+          },
+          "x-ogc-unit": {
+            "type": "string"
+          },
+          "x-ogc-unitLang": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "x-jsonld-vocab": "https://w3id.org/ogc/api/schema/",
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v2.schemas.schema",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "2.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

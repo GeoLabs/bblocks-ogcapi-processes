@@ -1,0 +1,74 @@
+
+# statusInfo (Schema)
+
+`ogc.api.processes.part1.v1.schemas.statusInfo` *v1.0*
+
+None
+
+[*Status*](http://www.opengis.net/def/status): Under development
+
+## Schema
+
+```yaml
+type: object
+required:
+- jobID
+- status
+- type
+properties:
+  processID:
+    type: string
+  type:
+    type: string
+    enum:
+    - process
+  jobID:
+    type: string
+  status:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/statusCode/schema.yaml
+  message:
+    type: string
+  created:
+    type: string
+    format: date-time
+  started:
+    type: string
+    format: date-time
+  finished:
+    type: string
+    format: date-time
+  updated:
+    type: string
+    format: date-time
+  progress:
+    type: integer
+    minimum: 0
+    maximum: 100
+  links:
+    type: array
+    items:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/link/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v1.schemas.statusInfo
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '1.0'
+  dateOfLastChange: '2026-11-10'
+
+```
+
+Links to the schema:
+
+* YAML version: [schema.yaml](https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/statusInfo/schema.json)
+* JSON version: [schema.json](https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/statusInfo/schema.yaml)
+
+## Sources
+
+* [OGC API - Processes - Part 1: Core (version 1.0, OGC 18-062r2)](https://docs.ogc.org/is/18-062r2/18-062r2.html)
+
+# For developers
+
+The source code for this Building Block can be found in the following repository:
+
+* URL: [https://github.com/GeoLabs/bblocks-ogcapi-processes](https://github.com/GeoLabs/bblocks-ogcapi-processes)
+* Path: `_sources/part1/v1/schemas/statusInfo`
+

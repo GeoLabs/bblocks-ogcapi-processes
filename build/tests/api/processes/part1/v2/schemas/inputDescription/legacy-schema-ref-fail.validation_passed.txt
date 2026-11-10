@@ -1,0 +1,72 @@
+Validation report for ogc.api.processes.part1.v2.schemas.inputDescription - inputDescription
+Generated 2026-11-10T14:39:40.342048+00:00
+=== General ===
+Test was expected to fail and it did.
+=== End General ===
+
+=== Files ===
+Using legacy-schema-ref-fail.json from test resources
+JSON-LD context is present - uplifting
+Output JSON-LD legacy-schema-ref-fail.jsonld created
+Output Turtle legacy-schema-ref-fail.ttl created
+=== End Files ===
+
+=== JSON Schema ===
+
+** Validation error **
+ValidationError: 'type' is a required property
+
+Failed validating 'required' in schema['allOf'][4]['properties']['schema']:
+    {'description': 'Attributes of the features or fields of a coverage '
+                    'range. Defined by a subset of the JSON Schema for the '
+                    'properties of a feature',
+     'type': 'object',
+     'required': ['type', 'properties'],
+     'properties': {'type': {'type': 'string', 'enum': ['object']},
+                    'required': {'type': 'array',
+                                 'minItems': 1,
+                                 'items': {'type': 'string'}},
+                    'properties': {'type': 'object',
+                                   'default': {},
+                                   'additionalProperties': {'type': 'object',
+                                                            'properties': {'title': {'type': 'string'},
+                                                                           'description': {'type': 'string'},
+                                                                           'type': {'type': 'string',
+                                                                                    'enum': ['array',
+                                                                                             'boolean',
+                                                                                             'integer',
+                                                                                             'null',
+                                                                                             'number',
+                                                                                             'object',
+                                                                                             'string']},
+                                                                           'enum': {'type': 'array',
+                                                                                    'minItems': 1,
+                                                                                    'items': {},
+                                                                                    'uniqueItems': True},
+                                                                           'format': {'type': 'string'},
+                                                                           'contentMediaType': {'type': 'string'},
+                                                                           'maximum': {'type': 'number'},
+                                                                           'exclusiveMaximum': {'type': 'number'},
+                                                                           'minimum': {'type': 'number'},
+                                                                           'exclusiveMinimum': {'type': 'number'},
+                                                                           'pattern': {'type': 'string',
+                                                                                       'format': 'regex'},
+                                                                           'maxItems': {'type': 'integer',
+                                                                                        'minimum': 0},
+                                                                           'minItems': {'type': 'integer',
+                                                                                        'default': 0,
+                                                                                        'minimum': 0},
+                                                                           'x-ogc-definition': {'type': 'string',
+                                                                                                'format': 'uri'},
+                                                                           'x-ogc-unit': {'type': 'string'},
+                                                                           'x-ogc-unitLang': {'type': 'string'}}}}},
+     'x-jsonld-vocab': 'https://w3id.org/ogc/api/schema/',
+     'x-bblocks-metadata': {'itemIdentifier': 'ogc.api.processes.part1.v2.schemas.schema',
+                            'register': 'https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json',
+                            'version': '2.0',
+                            'dateOfLastChange': '2026-11-10'}}
+
+On instance['schema']:
+    {'$ref': 'bblocks://ogc.geo.common.parameters.bbox'}
+=== End JSON Schema ===
+

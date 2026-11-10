@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/inputDescription/context.jsonld",
+    {
+      "op": "http://test-data/cafe-walk/observables/"
+    }
+  ],
+  "@id": "op:areaOfInterest",
+  "title": "BBOX",
+  "description": "BBOX via schema ref",
+  "minOccurs": 1,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "bbox": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        },
+        "minItems": 4,
+        "maxItems": 4
+      }
+    }
+  }
+}

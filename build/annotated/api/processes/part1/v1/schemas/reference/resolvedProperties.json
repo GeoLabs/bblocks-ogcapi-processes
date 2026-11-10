@@ -1,0 +1,1 @@
+{"defs":{},"properties":[{"path":["$ref"],"required":true,"schema_type":"string","format":"uri-reference","sources":["bblocks://ogc.api.processes.part1.v1.schemas.reference"]}]}

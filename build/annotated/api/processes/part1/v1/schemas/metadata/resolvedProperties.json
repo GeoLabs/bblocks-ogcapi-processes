@@ -1,0 +1,1 @@
+{"defs":{},"properties":[{"path":["title"],"schema_type":"string","sources":["bblocks://ogc.api.processes.part1.v1.schemas.metadata"]},{"path":["role"],"schema_type":"string","sources":["bblocks://ogc.api.processes.part1.v1.schemas.metadata"]},{"path":["href"],"schema_type":"string","sources":["bblocks://ogc.api.processes.part1.v1.schemas.metadata"]}]}

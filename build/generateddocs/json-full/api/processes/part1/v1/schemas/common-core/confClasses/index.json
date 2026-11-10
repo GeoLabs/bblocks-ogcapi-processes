@@ -1,0 +1,49 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v1.schemas.common-core.confClasses",
+  "name": "confClasses",
+  "status": "under-development",
+  "dateTimeAddition": "2024-03-22T11:40:00+01:00",
+  "itemClass": "schema",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API Features - Part 1 - Core corrigendum",
+      "link": "https://docs.ogc.org/is/17-069r4/17-069r4.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "features"
+  ],
+  "abstract": "This building block corresponds to the schema for an OGC API Features confClasses",
+  "shaclShapes": {},
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/common-core/confClasses/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/common-core/confClasses/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/common-core/confClasses/schema.yaml",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/common-core/confClasses/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/common-core/confClasses/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/GeoLabs/bblocks-ogcapi-processes/blob/master/build/tests/api/processes/part1/v1/schemas/common-core/confClasses/",
+  "examples": [
+    {
+      "title": "Example of conformance class declaration",
+      "snippets": [
+        {
+          "language": "json",
+          "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/api/processes/part1/v1/schemas/common-core/confClasses/example_1_1.json",
+          "sizeBytes": 378,
+          "code": "{\n   \"conformsTo\": [\n      \"http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core\",\n      \"http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/oas30\",\n      \"http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/html\",\n      \"http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/geojson\",\n      \"http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/gmlsf0\"\n   ]\n}\n"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "type: object\nrequired:\n- conformsTo\nproperties:\n  conformsTo:\n    type: array\n    items:\n      type: string\n      example: http://www.opengis.net/spec/ogcapi-features-1/1.0/conf/core\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v1.schemas.common-core.confClasses\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '1.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v1/schemas/common-core/confClasses"
+}

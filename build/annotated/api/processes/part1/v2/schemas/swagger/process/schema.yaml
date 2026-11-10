@@ -1,0 +1,15 @@
+allOf:
+- $ref: https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/processSummary.yaml
+- type: object
+  properties:
+    inputs:
+      additionalProperties:
+        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/swagger/inputDescription/schema.yaml
+    outputs:
+      additionalProperties:
+        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/swagger/outputDescription/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.swagger.process
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

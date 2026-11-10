@@ -1,0 +1,42 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.schemas.outputDescription",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (2.0 draft, OGC 18-062r3)",
+      "link": "https://docs.ogc.org/DRAFTS/18-062r3.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "outputDescription",
+  "itemClass": "schema",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v2.schemas.descriptionType",
+    "ogc.api.processes.part1.v2.schemas.processes-core.dataAccessAPIs",
+    "ogc.api.processes.part1.v2.schemas.processes-core.dataClasses",
+    "ogc.api.processes.part1.v2.schemas.processes-core.schemaAndOccurrences"
+  ],
+  "ldContext": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/outputDescription/context.jsonld",
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/outputDescription/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/outputDescription/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/outputDescription/schema.yaml",
+  "sourceLdContext": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/outputDescription/context.jsonld",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/outputDescription/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/schemas/outputDescription/",
+  "validationPassed": true,
+  "annotatedSchema": "allOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/descriptionType/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/dataClasses/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/dataAccessAPIs/schema.yaml\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/schemaAndOccurrences/schema.yaml\nx-jsonld-extra-terms:\n  title: http://purl.org/dc/terms/title\n  description: http://purl.org/dc/terms/description\n  schema: https://w3id.org/ogc/api/processes/schema\n  keywords: https://w3id.org/ogc/api/processes/keywords\n  nullable: https://w3id.org/ogc/api/processes/nullable\n  type: https://w3id.org/ogc/api/processes/type\n  $ref:\n    x-jsonld-id: https://w3id.org/ogc/api/processes/ref\n    x-jsonld-type: '@id'\n  default:\n    x-jsonld-id: https://w3id.org/ogc/api/processes/default\n    x-jsonld-type: '@json'\n  minOccurs: https://w3id.org/ogc/api/processes/minOccurs\n  maxOccurs: https://w3id.org/ogc/api/processes/maxOccurs\n  enum:\n    x-jsonld-id: https://w3id.org/ogc/api/processes/enum\n    x-jsonld-container: '@set'\nx-jsonld-vocab: https://w3id.org/ogc/api/processes/\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\n  proc: https://w3id.org/ogc/api/processes/\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v2.schemas.outputDescription\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '2.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/schemas/outputDescription"
+}

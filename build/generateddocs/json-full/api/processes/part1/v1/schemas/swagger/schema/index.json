@@ -1,0 +1,37 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v1.schemas.swagger.schema",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (version 1.0, OGC 18-062r2)",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "schema",
+  "itemClass": "schema",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v1.schemas.reference"
+  ],
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/schema/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/schema/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/swagger/schema/schema.yaml",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/swagger/schema/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/swagger/schema/",
+  "validationPassed": true,
+  "annotatedSchema": "$schema: http://json-schema.org/draft-04/schema#\noneOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/reference/schema.yaml\n- type: object\n  properties:\n    title:\n      type: string\n    multipleOf:\n      type: number\n      minimum: 0\n      exclusiveMinimum: true\n    maximum:\n      type: number\n    exclusiveMaximum:\n      type: boolean\n      default: false\n    minimum:\n      type: number\n    exclusiveMinimum:\n      type: boolean\n      default: false\n    maxLength:\n      type: integer\n      minimum: 0\n    minLength:\n      type: integer\n      minimum: 0\n      default: 0\n    pattern:\n      type: string\n      format: regex\n    maxItems:\n      type: integer\n      minimum: 0\n    minItems:\n      type: integer\n      minimum: 0\n      default: 0\n    uniqueItems:\n      type: boolean\n      default: false\n    maxProperties:\n      type: integer\n      minimum: 0\n    minProperties:\n      type: integer\n      minimum: 0\n      default: 0\n    required:\n      type: array\n      items:\n        type: string\n      minItems: 1\n      uniqueItems: true\n    enum:\n      type: array\n      items: {}\n      minItems: 1\n      uniqueItems: false\n    type:\n      type: string\n      enum:\n      - array\n      - boolean\n      - integer\n      - number\n      - object\n      - string\n    properties:\n      type: object\n      additionalProperties:\n        type: boolean\n        default: true\n    additionalProperties:\n      type: boolean\n      default: true\n    description:\n      type: string\n    format:\n      type: string\n    default: {}\n    nullable:\n      type: boolean\n      default: false\n    readOnly:\n      type: boolean\n      default: false\n    writeOnly:\n      type: boolean\n      default: false\n    example: {}\n    deprecated:\n      type: boolean\n      default: false\n    contentMediaType:\n      type: string\n    contentEncoding:\n      type: string\n    contentSchema:\n      type: string\n  additionalProperties: false\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v1.schemas.swagger.schema\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '1.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v1/schemas/swagger/schema"
+}

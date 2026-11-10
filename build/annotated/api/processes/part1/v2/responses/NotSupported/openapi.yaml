@@ -1,0 +1,8 @@
+description: None of the requested media types is supported at the path.
+content:
+  application/json:
+    schema:
+      $ref: https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/exception.yaml
+  text/html:
+    schema:
+      type: string

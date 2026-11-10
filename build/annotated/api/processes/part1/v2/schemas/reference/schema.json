@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "$ref"
+  ],
+  "properties": {
+    "$ref": {
+      "type": "string",
+      "format": "uri-reference"
+    }
+  },
+  "additionalProperties": false,
+  "x-bblocks-metadata": {
+    "itemIdentifier": "ogc.api.processes.part1.v2.schemas.reference",
+    "register": "https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json",
+    "version": "2.0",
+    "dateOfLastChange": "2026-11-10"
+  }
+}

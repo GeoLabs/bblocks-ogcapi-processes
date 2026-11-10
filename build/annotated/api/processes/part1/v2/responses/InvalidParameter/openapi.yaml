@@ -1,0 +1,8 @@
+description: A query parameter has an invalid value.
+content:
+  application/json:
+    schema:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/exception/schema.yaml
+  text/html:
+    schema:
+      type: string

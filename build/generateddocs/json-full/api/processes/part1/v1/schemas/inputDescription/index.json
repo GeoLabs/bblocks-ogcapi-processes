@@ -1,0 +1,68 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v1.schemas.inputDescription",
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (version 1.0, OGC 18-062r2)",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "inputDescription",
+  "itemClass": "schema",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v1.schemas.descriptionType",
+    "ogc.api.processes.part1.v1.schemas.schema"
+  ],
+  "ldContext": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/inputDescription/context.jsonld",
+  "schema": {
+    "application/yaml": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/inputDescription/schema.yaml",
+    "application/json": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/inputDescription/schema.json"
+  },
+  "sourceSchema": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/inputDescription/schema.yaml",
+  "sourceLdContext": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/inputDescription/context.jsonld",
+  "resolvedSchemaProperties": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/inputDescription/resolvedProperties.json",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/inputDescription/",
+  "validationPassed": true,
+  "testOutputs": "https://github.com/GeoLabs/bblocks-ogcapi-processes/blob/master/build/tests/api/processes/part1/v1/schemas/inputDescription/",
+  "examples": [
+    {
+      "title": "Complex object with a reference to a BBlock",
+      "content": "In this case clients should determine if they recognise the BBlock identifier and can address it.",
+      "snippets": [
+        {
+          "language": "json",
+          "ref": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v1/schemas/inputDescription/examples/complex.json",
+          "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/api/processes/part1/v1/schemas/inputDescription/example_1_1.json",
+          "sizeBytes": 256,
+          "code": "{\n  \"@context\": {\n    \"op\": \"http://test-data/cafe-walk/observables/\"\n  },\n  \"@id\": \"op:areaOfInterest\",\n  \"title\": \"BBOX\",\n  \"description\": \"BBOX via schema ref\",\n  \"minOccurs\": 1,\n  \"schema\": {\n    \"$ref\": \"bblocks://ogc.geo.common.parameters.bbox\"\n  }\n}"
+        },
+        {
+          "language": "jsonld",
+          "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/api/processes/part1/v1/schemas/inputDescription/example_1_1.jsonld",
+          "sizeBytes": 407,
+          "code": "{\n  \"@context\": [\n    \"https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/inputDescription/context.jsonld\",\n    {\n      \"op\": \"http://test-data/cafe-walk/observables/\"\n    }\n  ],\n  \"@id\": \"op:areaOfInterest\",\n  \"title\": \"BBOX\",\n  \"description\": \"BBOX via schema ref\",\n  \"minOccurs\": 1,\n  \"schema\": {\n    \"$ref\": \"bblocks://ogc.geo.common.parameters.bbox\"\n  }\n}"
+        },
+        {
+          "language": "ttl",
+          "url": "https://geolabs.github.io/bblocks-ogcapi-processes/build/tests/api/processes/part1/v1/schemas/inputDescription/example_1_1.ttl",
+          "sizeBytes": 384,
+          "code": "@prefix dct: <http://purl.org/dc/terms/> .\n@prefix op: <http://test-data/cafe-walk/observables/> .\n@prefix proc: <https://w3id.org/ogc/api/processes/> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\nop:areaOfInterest dct:description \"BBOX via schema ref\" ;\n    dct:title \"BBOX\" ;\n    proc:minOccurs 1 ;\n    proc:schema [ proc:ref <bblocks://ogc.geo.common.parameters.bbox> ] .\n\n"
+        }
+      ]
+    }
+  ],
+  "annotatedSchema": "allOf:\n- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/descriptionType/schema.yaml\n- type: object\n  required:\n  - schema\n  properties:\n    minOccurs:\n      type: integer\n      default: 1\n      x-jsonld-id: https://w3id.org/ogc/api/processes/minOccurs\n    maxOccurs:\n      oneOf:\n      - type: integer\n        default: 1\n      - type: string\n        enum:\n        - unbounded\n      x-jsonld-id: https://w3id.org/ogc/api/processes/maxOccurs\n    schema:\n      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/schema/schema.yaml\n      x-jsonld-id: https://w3id.org/ogc/api/processes/schema\nx-jsonld-extra-terms:\n  title: http://purl.org/dc/terms/title\n  description: http://purl.org/dc/terms/description\n  keywords: https://w3id.org/ogc/api/processes/keywords\n  nullable: https://w3id.org/ogc/api/processes/nullable\n  type: https://w3id.org/ogc/api/processes/type\n  $ref:\n    x-jsonld-id: https://w3id.org/ogc/api/processes/ref\n    x-jsonld-type: '@id'\n  default:\n    x-jsonld-id: https://w3id.org/ogc/api/processes/default\n    x-jsonld-type: '@json'\n  enum:\n    x-jsonld-id: https://w3id.org/ogc/api/processes/enum\n    x-jsonld-container: '@set'\nx-jsonld-vocab: https://w3id.org/ogc/api/processes/\nx-jsonld-prefixes:\n  dct: http://purl.org/dc/terms/\n  proc: https://w3id.org/ogc/api/processes/\nx-bblocks-metadata:\n  itemIdentifier: ogc.api.processes.part1.v1.schemas.inputDescription\n  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json\n  version: '1.0'\n  dateOfLastChange: '2026-11-10'\n",
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v1/schemas/inputDescription"
+}

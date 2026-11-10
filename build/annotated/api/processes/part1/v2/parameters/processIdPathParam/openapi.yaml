@@ -1,0 +1,5 @@
+name: processID
+in: path
+required: true
+schema:
+  $ref: https://raw.githubusercontent.com/opengeospatial/ogcapi-processes/0f9c3d88ccdb1802f6356fd39e7963df7b8dadae/openapi/schemas/dynamic/processes-list.yaml

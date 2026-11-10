@@ -1,0 +1,15 @@
+{
+  "title": "Validation report for ogc.api.processes.part1.v1.schemas.link - link",
+  "bblockName": "link",
+  "bblockId": "ogc.api.processes.part1.v1.schemas.link",
+  "generated": "2026-11-10T14:39:39.985143+00:00",
+  "result": true,
+  "items": [],
+  "globalErrors": {},
+  "hasWarnings": false,
+  "counts": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  }
+}

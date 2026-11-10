@@ -1,0 +1,1 @@
+{"defs":{},"properties":[{"path":["code"],"required":true,"schema_type":"string","sources":["bblocks://ogc.api.processes.part1.v1.schemas.common-core.exception"]},{"path":["description"],"schema_type":"string","sources":["bblocks://ogc.api.processes.part1.v1.schemas.common-core.exception"]}]}

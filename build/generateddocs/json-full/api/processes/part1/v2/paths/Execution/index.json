@@ -1,0 +1,43 @@
+
+
+{
+  "itemIdentifier": "ogc.api.processes.part1.v2.paths.Execution",
+  "status": "under-development",
+  "dateTimeAddition": "2025-12-02T09:00:00.000000",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2026-11-10",
+  "sources": [
+    {
+      "title": "OGC API Processes - Part 1 - Core",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "path"
+  ],
+  "name": "Execute",
+  "itemClass": "path",
+  "shaclShapes": {},
+  "dependsOn": [
+    "ogc.api.processes.part1.v2.parameters.processIdPathParam",
+    "ogc.api.processes.part1.v2.parameters.processes-core.prefer-header-execution",
+    "ogc.api.processes.part1.v2.parameters.processes-core.response",
+    "ogc.api.processes.part1.v2.responses.ExecuteAsync",
+    "ogc.api.processes.part1.v2.responses.ExecuteSync",
+    "ogc.api.processes.part1.v2.responses.NotFound",
+    "ogc.api.processes.part1.v2.responses.ServerError",
+    "ogc.api.processes.part1.v2.responses.processes-core.rEmpty",
+    "ogc.api.processes.part1.v2.responses.processes-core.rExecuteCollectionRedirect",
+    "ogc.api.processes.part1.v2.schemas.execute",
+    "ogc.api.processes.part1.v2.schemas.results"
+  ],
+  "sourceOpenAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/paths/Execution/openapi.yaml",
+  "openAPIDocument": "https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/paths/Execution/openapi.yaml",
+  "sourceFiles": "https://geolabs.github.io/bblocks-ogcapi-processes/_sources/part1/v2/paths/Execution/",
+  "validationPassed": true,
+  "annotatedSchema": null,
+  "gitRepository": "https://github.com/GeoLabs/bblocks-ogcapi-processes",
+  "gitPath": "_sources/part1/v2/paths/Execution"
+}

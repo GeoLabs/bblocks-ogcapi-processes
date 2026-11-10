@@ -1,0 +1,24 @@
+allOf:
+- $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/descriptionType/schema.yaml
+- type: object
+  required:
+  - id
+  - version
+  properties:
+    id:
+      type: string
+    version:
+      type: string
+    jobControlOptions:
+      type: array
+      items:
+        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/jobControlOptions/schema.yaml
+    links:
+      type: array
+      items:
+        $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/link/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.processSummary
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

@@ -1,6 +1,8 @@
-# OGC API Processes
+# OGC API Processes - Part 1 versions 1.0 and 2.0 draft
 
-Schemas for the OGC API Processes standard
+Part 1 version 1.0 (OGC 18-062r2) and the GeoLabs version 2.0 draft fork
+(OGC 18-062r3), hosted as independent part1.v1 and part1.v2 definitions.
+Namespace isolation is not a claim of full draft conformance.
 
 
 Adds a flexible, JSON schema version agnostic documentation to the OGC API Processes standard, supporting further profiling by combining with other Building Blocks.
@@ -8,323 +10,721 @@ Adds a flexible, JSON schema version agnostic documentation to the OGC API Proce
 
 ## Building Blocks
 
-### `ogc.api.processes.v1.parameters.datetime` — datetime parameter
+### `ogc.api.processes.part1.v1.parameters.datetime` — datetime
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.parameters.jobId` — jobId parameter
+### `ogc.api.processes.part1.v1.parameters.jobId` — jobId
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.parameters.limit` — limit parameter
+### `ogc.api.processes.part1.v1.parameters.limit` — limit
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.parameters.maxDuration` — maxDuration parameter
+### `ogc.api.processes.part1.v1.parameters.maxDuration` — maxDuration
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.parameters.minDuration` — minDuration parameter
+### `ogc.api.processes.part1.v1.parameters.minDuration` — minDuration
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.parameters.processIdPathParam` — processIdPathParam parameter
+### `ogc.api.processes.part1.v1.parameters.processIdPathParam` — processIdPathParam
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.parameters.processIdQueryParam` — processIdQueryParam parameter
+### `ogc.api.processes.part1.v1.parameters.processIdQueryParam` — processIdQueryParam
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.schemas.statusCode` — statusCode schema
+### `ogc.api.processes.part1.v1.schemas.statusCode` — statusCode
 
 **Type:** schema
 
-### `ogc.api.processes.v1.parameters.type` — type parameter
+### `ogc.api.processes.part1.v1.parameters.type` — type
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.schemas.confClasses` — confClasses schema
+### `ogc.api.processes.part1.v1.schemas.confClasses` — confClasses
 
 **Type:** schema
 
-### `ogc.api.processes.v1.responses.ExecuteSyncRawRef` — ExecuteSyncRawRef response
+### `ogc.api.processes.part1.v1.responses.ExecuteSyncRawRef` — ExecuteSyncRawRef
 
 **Type:** response
 
-### `ogc.api.processes.v1.schemas.exception` — exception schema
+### `ogc.api.processes.part1.v1.schemas.exception` — exception
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.additionalParameter` — additionalParameter schema
+### `ogc.api.processes.part1.v1.schemas.additionalParameter` — additionalParameter
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.bbox` — bbox schema
+### `ogc.api.processes.part1.v1.schemas.bbox` — bbox
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.binaryInputValue` — binaryInputValue schema
+### `ogc.api.processes.part1.v1.schemas.binaryInputValue` — binaryInputValue
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.binaryValue` — binaryValue schema
-
-**Type:** schema
-
-### `ogc.api.processes.v1.schemas.format` — format schema
-
-**Type:** schema
-
-### `ogc.api.processes.v1.schemas.common-core.confClasses` — Schema for confClasses schema
+### `ogc.api.processes.part1.v1.schemas.common-core.confClasses` — confClasses
 
 **Type:** schema
 
 This building block corresponds to the schema for an OGC API Features confClasses
 
-### `ogc.api.processes.v1.schemas.common-core.exception` — Schema for exception schema
+### `ogc.api.processes.part1.v1.schemas.common-core.exception` — exception
 
 **Type:** schema
 
 This building block corresponds to the schema for an OGC API Features exception
 
-### `ogc.api.processes.v1.schemas.metadata` — metadata schema
+### `ogc.api.processes.part1.v1.schemas.link` — link
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.subscriber` — subscriber schema
+### `ogc.api.processes.part1.v1.schemas.metadata` — metadata
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.link` — link schema
+### `ogc.api.processes.part1.v1.schemas.subscriber` — subscriber
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.jobControlOptions` — jobControlOptions schema
+### `ogc.api.processes.part1.v1.schemas.format` — format
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.transmissionMode` — transmissionMode schema
+### `ogc.api.processes.part1.v1.schemas.jobControlOptions` — jobControlOptions
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.reference` — reference schema
+### `ogc.api.processes.part1.v1.schemas.transmissionMode` — transmissionMode
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.timeStamp` — Schema for timeStamp schema
+### `ogc.api.processes.part1.v1.schemas.reference` — reference
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.timeStamp` — timeStamp
 
 **Type:** datatype
 
 This property indicates the time and date when the response was generated
 
-### `ogc.api.processes.v1.schemas.common-core.landingPage` — Schema for landingPage schema
+### `ogc.api.processes.part1.v2.parameters.unspecified.f-metadata` — f-metadata
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.responses.common-core.rAPI` — rAPI
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.parameters.jobId` — jobId
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.processes-core.prefer-header-return` — prefer-header-return
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.datetime` — datetime
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.limit` — limit
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.maxDuration` — maxDuration
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.minDuration` — minDuration
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.processIdPathParam` — processIdPathParam
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.processIdQueryParam` — processIdQueryParam
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.processes-core.prefer-header-execution` — prefer-header-execution
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.parameters.processes-core.response` — response
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.schemas.statusCode` — statusCode
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.parameters.type` — type
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v2.responses.processes-core.rEmpty` — rEmpty
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.responses.processes-core.rExecuteCollectionRedirect` — rExecuteCollectionRedirect
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.schemas.confClasses` — confClasses
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.responses.ExecuteSyncRawRef` — ExecuteSyncRawRef
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.schemas.exception` — exception
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.responses.NotSupported` — NotSupported
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.schemas.additionalParameter` — additionalParameter
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.bbox-def-crs` — bbox-def-crs
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.binaryInputValue` — binaryInputValue
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.binaryValue` — binaryValue
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.common-core.confClasses` — confClasses
+
+**Type:** schema
+
+Compatibility identifier for the official Processes master Common Core confClasses schema.
+
+### `ogc.api.processes.part1.v2.schemas.common-core.exception` — exception
+
+**Type:** schema
+
+This building block corresponds to the schema for an OGC API Features exception
+
+### `ogc.api.processes.part1.v2.schemas.common-core.link` — link
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.responseCollection` — responseCollection
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.executionUnitRequirements` — executionUnitRequirements
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.jobControlOptions` — jobControlOptions
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.linkBase` — linkBase
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.linkBaseExtended` — linkBaseExtended
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.apis` — apis
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.safeCurie` — safeCurie
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.subscriber` — subscriber
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.schema` — schema
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.reference` — reference
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.swagger.schema` — schema
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.timeStamp` — timeStamp
+
+**Type:** datatype
+
+This property indicates the time and date when the response was generated
+
+### `ogc.api.processes.part1.v2.schemas.transmissionMode` — transmissionMode
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.parameters.status` — status
+
+**Type:** parameter
+
+### `ogc.api.processes.part1.v1.responses.ConformanceDeclaration` — ConformanceDeclaration
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.InvalidParameter` — InvalidParameter
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.NotAllowed` — NotAllowed
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.NotFound` — NotFound
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.NotSupported` — NotSupported
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.ServerError` — ServerError
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.schemas.inputValueNoObject` — inputValueNoObject
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.common-core.landingPage` — landingPage
 
 **Type:** schema
 
 This building block corresponds to the schema for an OGC API Features landingPage
 
-### `ogc.api.processes.v1.parameters.status` — status parameter
+### `ogc.api.processes.part1.v1.schemas.landingPage` — landingPage
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.statusInfo` — statusInfo
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.descriptionType` — descriptionType
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.output` — output
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.schema` — schema
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.swagger.schema` — schema
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.parameters.status` — status
 
 **Type:** parameter
 
-### `ogc.api.processes.v1.responses.ConformanceDeclaration` — ConformanceDeclaration response
+### `ogc.api.processes.part1.v2.responses.ConformanceDeclaration` — ConformanceDeclaration
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.InvalidParameter` — InvalidParameter response
+### `ogc.api.processes.part1.v2.responses.InvalidParameter` — InvalidParameter
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.NotAllowed` — NotAllowed response
+### `ogc.api.processes.part1.v2.responses.NotAllowed` — NotAllowed
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.NotFound` — NotFound response
+### `ogc.api.processes.part1.v2.responses.NotFound` — NotFound
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.NotSupported` — NotSupported response
+### `ogc.api.processes.part1.v2.responses.ServerError` — ServerError
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.ServerError` — ServerError response
+### `ogc.api.processes.part1.v2.responses.common-core.rNotAcceptable` — rNotAcceptable
 
 **Type:** response
 
-### `ogc.api.processes.v1.schemas.inputValueNoObject` — inputValueNoObject schema
+### `ogc.api.processes.part1.v2.schemas.bbox` — bbox
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.collectionValue` — collectionValue schema
+### `ogc.api.processes.part1.v2.schemas.common-core.landingPage` — landingPage
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.descriptionType` — descriptionType schema
+This building block corresponds to the schema for an OGC API Features landingPage
+
+### `ogc.api.processes.part1.v2.schemas.landingPage` — landingPage
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.landingPage` — landingPage schema
+### `ogc.api.processes.part1.v2.schemas.processes-core.dataAccessAPIs` — dataAccessAPIs
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.statusInfo` — statusInfo schema
+### `ogc.api.processes.part1.v2.schemas.processes-core.processingEntityType` — processingEntityType
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.output` — output schema
+### `ogc.api.processes.part1.v2.schemas.processes-core.dataClasses` — dataClasses
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.schema` — schema schema
+### `ogc.api.processes.part1.v2.schemas.processes-core.schemaAndOccurrences` — schemaAndOccurrences
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.swagger.schema` — schema schema
+### `ogc.api.processes.part1.v2.schemas.swagger.inputDescription` — inputDescription
 
 **Type:** schema
 
-### `ogc.api.processes.v1.paths.Conformance` — Conformance path
+### `ogc.api.processes.part1.v2.schemas.swagger.outputDescription` — outputDescription
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.paths.Conformance` — Conformance
 
 **Type:** path
 
-### `ogc.api.processes.v1.schemas.inputValue` — inputValue schema
+### `ogc.api.processes.part1.v1.schemas.inputValue` — inputValue
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.valueNoObject` — valueNoObject schema
-
-**Type:** schema
-
-### `ogc.api.processes.v1.schemas.processSummary` — processSummary schema
-
-**Type:** schema
-
-### `ogc.api.processes.v1.responses.LandingPage` — LandingPage response
+### `ogc.api.processes.part1.v1.responses.LandingPage` — LandingPage
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.ExecuteAsync` — ExecuteAsync response
+### `ogc.api.processes.part1.v1.responses.ExecuteAsync` — ExecuteAsync
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.Status` — Status response
+### `ogc.api.processes.part1.v1.responses.Status` — Status
 
 **Type:** response
 
-### `ogc.api.processes.v1.schemas.jobList` — jobList schema
+### `ogc.api.processes.part1.v1.schemas.jobList` — jobList
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.inputDescription` — inputDescription schema
+### `ogc.api.processes.part1.v1.schemas.processSummary` — processSummary
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.outputDescription` — outputDescription schema
+### `ogc.api.processes.part1.v1.schemas.inputDescription` — inputDescription
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.swagger.inputDescription` — inputDescription schema
+### `ogc.api.processes.part1.v1.schemas.outputDescription` — outputDescription
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.swagger.outputDescription` — outputDescription schema
+### `ogc.api.processes.part1.v1.schemas.swagger.inputDescription` — inputDescription
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.qualifiedInputValue` — qualifiedInputValue schema
+### `ogc.api.processes.part1.v1.schemas.swagger.outputDescription` — outputDescription
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.value` — value schema
-
-**Type:** schema
-
-### `ogc.api.processes.v1.schemas.processList` — processList schema
-
-**Type:** schema
-
-### `ogc.api.processes.v1.paths.LandingPage` — LandingPage path
+### `ogc.api.processes.part1.v2.paths.Conformance` — Conformance
 
 **Type:** path
 
-### `ogc.api.processes.v1.paths.DismissJob` — Dismiss Job
-
-**Type:** path
-
-### `ogc.api.processes.v1.paths.Job` — Job path
-
-**Type:** path
-
-### `ogc.api.processes.v1.responses.JobList` — JobList response
+### `ogc.api.processes.part1.v2.responses.LandingPage` — LandingPage
 
 **Type:** response
 
-### `ogc.api.processes.v1.schemas.process` — process schema
+### `ogc.api.processes.part1.v2.schemas.format` — format
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.swagger.process` — process schema
+### `ogc.api.processes.part1.v2.schemas.link` — link
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.inlineOrRefData` — inlineOrRefData schema
+### `ogc.api.processes.part1.v2.schemas.swagger.process` — process
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.qualifiedValue` — qualifiedValue schema
+### `ogc.api.processes.part1.v1.schemas.qualifiedInputValue` — qualifiedInputValue
 
 **Type:** schema
 
-### `ogc.api.processes.v1.responses.ProcessList` — ProcessList response
-
-**Type:** response
-
-### `ogc.api.processes.v1.paths.JobList` — JobList path
+### `ogc.api.processes.part1.v1.paths.LandingPage` — LandingPage
 
 **Type:** path
 
-### `ogc.api.processes.v1.responses.ProcessDescription` — ProcessDescription response
+### `ogc.api.processes.part1.v1.paths.DismissJob` — Dismiss Job
+
+**Type:** path
+
+### `ogc.api.processes.part1.v1.paths.Job` — Job
+
+**Type:** path
+
+### `ogc.api.processes.part1.v1.responses.JobList` — JobList
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.swagger.ProcessDescription` — ProcessDescription response
-
-**Type:** response
-
-### `ogc.api.processes.v1.schemas.execute` — execute schema
+### `ogc.api.processes.part1.v1.schemas.processList` — processList
 
 **Type:** schema
 
-### `ogc.api.processes.v1.schemas.results` — results schema
+### `ogc.api.processes.part1.v1.schemas.process` — process
 
 **Type:** schema
 
-### `ogc.api.processes.v1.paths.ProcessList` — ProcessList path
+### `ogc.api.processes.part1.v1.schemas.swagger.process` — process
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.paths.LandingPage` — LandingPage
 
 **Type:** path
 
-### `ogc.api.processes.v1.paths.ProcessDescription` — ProcessDescription path
+### `ogc.api.processes.part1.v2.schemas.collectionValue` — collectionValue
 
-**Type:** path
+**Type:** schema
 
-### `ogc.api.processes.v1.responses.ExecuteSync` — ExecuteSync response
+### `ogc.api.processes.part1.v2.schemas.output` — output
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.metadata` — metadata
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.responses.swagger.ProcessDescription` — ProcessDescription
 
 **Type:** response
 
-### `ogc.api.processes.v1.responses.Results` — Results response
+### `ogc.api.processes.part1.v1.schemas.inlineOrRefData` — inlineOrRefData
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.paths.JobList` — JobList
+
+**Type:** path
+
+### `ogc.api.processes.part1.v1.responses.ProcessList` — ProcessList
 
 **Type:** response
 
-### `ogc.api.processes.v1.paths.Execution` — Execute path
+### `ogc.api.processes.part1.v1.responses.ProcessDescription` — ProcessDescription
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.swagger.ProcessDescription` — ProcessDescription
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.schemas.inputValueNoObject` — inputValueNoObject
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.valueNoObject` — valueNoObject
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.descriptionType` — descriptionType
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.execute` — execute
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.schemas.results` — results
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.paths.ProcessList` — ProcessList
 
 **Type:** path
 
-### `ogc.api.processes.v1.paths.JobResult` — Job result path
+### `ogc.api.processes.part1.v1.paths.ProcessDescription` — ProcessDescription
 
 **Type:** path
 
-### `ogc.api.processes.v1.api` — OGC API - Processes: Part 1
+### `ogc.api.processes.part1.v2.schemas.inputValue` — inputValue
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.value` — value
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.inputDescription` — inputDescription
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.outputDescription` — outputDescription
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processSummary` — processSummary
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.statusInfo` — statusInfo
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.responses.ExecuteSync` — ExecuteSync
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.responses.Results` — Results
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.schemas.qualifiedInputValue` — qualifiedInputValue
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.qualifiedValue` — qualifiedValue
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.process` — process
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.processList` — processList
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.responses.ExecuteAsync` — ExecuteAsync
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.responses.Status` — Status
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.schemas.jobList` — jobList
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v1.paths.Execution` — Execute
+
+**Type:** path
+
+### `ogc.api.processes.part1.v1.paths.JobResult` — Job result
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.schemas.inlineOrRefData` — inlineOrRefData
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.responses.ProcessDescription` — ProcessDescription
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.responses.ProcessList` — ProcessList
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.paths.DismissJob` — Dismiss Job
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.paths.Job` — Job
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.responses.JobList` — JobList
+
+**Type:** response
+
+### `ogc.api.processes.part1.v1.api` — OGC API - Processes: Part 1
+
+**Type:** api
+
+This building block corresponds to OGC API Processes Part 1
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.values` — values
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.paths.ProcessDescription` — ProcessDescription
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.operations.oProcessList` — oProcessList
+
+**Type:** model
+
+### `ogc.api.processes.part1.v2.paths.JobList` — JobList
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.schemas.processes-core.executeBase` — executeBase
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.schemas.results` — results
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.paths.ProcessList` — ProcessList
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.schemas.execute` — execute
+
+**Type:** schema
+
+### `ogc.api.processes.part1.v2.responses.ExecuteSync` — ExecuteSync
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.responses.Results` — Results
+
+**Type:** response
+
+### `ogc.api.processes.part1.v2.paths.Execution` — Execute
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.operations.oJobResults` — oJobResults
+
+**Type:** model
+
+### `ogc.api.processes.part1.v2.paths.JobResult` — Job result
+
+**Type:** path
+
+### `ogc.api.processes.part1.v2.api` — OGC API - Processes: Part 1
 
 **Type:** api
 

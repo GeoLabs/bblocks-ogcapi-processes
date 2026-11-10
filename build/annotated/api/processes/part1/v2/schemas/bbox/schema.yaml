@@ -1,0 +1,20 @@
+type: object
+required:
+- bbox
+properties:
+  bbox:
+    type: array
+    oneOf:
+    - minItems: 4
+      maxItems: 4
+    - minItems: 6
+      maxItems: 6
+    items:
+      type: number
+  crs:
+    $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v2/schemas/processes-core/bbox-def-crs/schema.yaml
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.bbox
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'

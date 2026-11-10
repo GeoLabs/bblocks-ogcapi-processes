@@ -1,0 +1,8 @@
+description: None of the requested media types is supported at the path.
+content:
+  application/json:
+    schema:
+      $ref: https://geolabs.github.io/bblocks-ogcapi-processes/build/annotated/api/processes/part1/v1/schemas/exception/schema.yaml
+  text/html:
+    schema:
+      type: string

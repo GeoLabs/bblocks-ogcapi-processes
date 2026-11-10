@@ -1,0 +1,17 @@
+type: object
+properties:
+  executionUnitRequirements:
+    type: object
+    properties:
+      remote-access:
+        type: boolean
+      staging:
+        type: string
+        enum:
+        - local-file
+        - remote-access
+x-bblocks-metadata:
+  itemIdentifier: ogc.api.processes.part1.v2.schemas.processes-core.executionUnitRequirements
+  register: https://geolabs.github.io/bblocks-ogcapi-processes/build/register.json
+  version: '2.0'
+  dateOfLastChange: '2026-11-10'
