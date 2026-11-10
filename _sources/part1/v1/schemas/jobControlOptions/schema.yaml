@@ -1,0 +1,6 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: string
+enum:
+- sync-execute
+- async-execute
+- dismiss

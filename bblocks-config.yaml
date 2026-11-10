@@ -1,8 +1,10 @@
 # A short, descriptive name of this building block collection
-name: OGC API Processes
+name: OGC API Processes - Part 1 versions 1.0 and 2.0 draft
 # Short abstract for this collection (optional)
 abstract: |
-  Schemas for the OGC API Processes standard
+  Part 1 version 1.0 (OGC 18-062r2) and the GeoLabs version 2.0 draft fork
+  (OGC 18-062r3), hosted as independent part1.v1 and part1.v2 definitions.
+  Namespace isolation is not a claim of full draft conformance.
 # Description for this collection (optional)
 description: |
   Adds a flexible, JSON schema version agnostic documentation to the OGC API Processes standard, supporting further profiling by combining with other Building Blocks.

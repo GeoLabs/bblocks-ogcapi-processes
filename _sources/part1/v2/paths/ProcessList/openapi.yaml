@@ -1,0 +1,2 @@
+get:
+  $ref: bblocks://ogc.api.processes.part1.v2.operations.oProcessList

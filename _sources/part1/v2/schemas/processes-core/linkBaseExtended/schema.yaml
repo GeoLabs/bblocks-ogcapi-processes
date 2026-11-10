@@ -1,0 +1,23 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+properties:
+  method:
+    type: string
+    enum:
+    - POST
+    - GET
+    - DELETE
+    - PATCH
+  body: {}
+  headers:
+    type: object
+    additionalProperties:
+      type: string
+  profile:
+    anyOf:
+    - type: string
+      format: uri
+    - type: array
+      items:
+        type: string
+        format: uri

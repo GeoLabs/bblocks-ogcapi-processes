@@ -1,0 +1,9 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+required:
+- code
+properties:
+  code:
+    type: string
+  description:
+    type: string

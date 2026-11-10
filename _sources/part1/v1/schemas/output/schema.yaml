@@ -1,0 +1,7 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+properties:
+  format:
+    $ref: bblocks://ogc.api.processes.part1.v1.schemas.format
+  transmissionMode:
+    $ref: bblocks://ogc.api.processes.part1.v1.schemas.transmissionMode

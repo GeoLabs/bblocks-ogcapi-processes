@@ -1,0 +1,9 @@
+# Official definition embedded by scripts/align_official_sources.py.
+oneOf:
+- type: string
+- type: number
+- type: integer
+- type: boolean
+- type: array
+- $ref: bblocks://ogc.api.processes.part1.v1.schemas.binaryInputValue
+- $ref: bblocks://ogc.api.processes.part1.v1.schemas.bbox

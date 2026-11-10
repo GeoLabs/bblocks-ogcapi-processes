@@ -1,0 +1,14 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+required:
+- processes
+- links
+properties:
+  processes:
+    type: array
+    items:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.processSummary
+  links:
+    type: array
+    items:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.link

@@ -1,0 +1,3 @@
+# Official definition embedded by scripts/align_official_sources.py.
+additionalProperties:
+  $ref: bblocks://ogc.api.processes.part1.v1.schemas.inlineOrRefData

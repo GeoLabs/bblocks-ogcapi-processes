@@ -1,0 +1,5 @@
+# Official definition embedded by scripts/align_official_sources.py.
+oneOf:
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.valueNoObject
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.qualifiedValue
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.link

@@ -1,0 +1,5 @@
+description: The status of a job.
+content:
+  application/json:
+    schema:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.statusInfo

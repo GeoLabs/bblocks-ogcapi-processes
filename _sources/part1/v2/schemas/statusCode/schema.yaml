@@ -1,0 +1,9 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: string
+nullable: false
+enum:
+- accepted
+- running
+- successful
+- failed
+- dismissed

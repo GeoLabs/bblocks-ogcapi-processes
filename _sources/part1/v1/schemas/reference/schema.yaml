@@ -1,0 +1,8 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+required:
+- $ref
+properties:
+  $ref:
+    type: string
+    format: uri-reference

@@ -1,0 +1,21 @@
+{
+  "name": "OGC API - Processes: Part 1",
+  "status": "under-development",
+  "dateTimeAddition": "2024-03-22T11:40:00+01:00",
+  "itemClass": "api",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2024-03-22",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (2.0 draft, OGC 18-062r3)",
+      "link": "https://docs.ogc.org/DRAFTS/18-062r3.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "processes"
+  ],
+  "highlighted": true,
+  "abstract": "This building block corresponds to OGC API Processes"
+}

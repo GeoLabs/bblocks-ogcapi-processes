@@ -1,0 +1,5 @@
+# Official definition embedded by scripts/align_official_sources.py.
+description: A safe Compact URI (CURIE) identifying well-known entity.
+example: '[ogc-profile:my-profile]'
+type: string
+pattern: ^\[[a-zA-Z0-9._-]+:[a-zA-Z0-9._-]+\]$

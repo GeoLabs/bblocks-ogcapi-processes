@@ -1,0 +1,22 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+properties:
+  inputs:
+    additionalProperties:
+      oneOf:
+      - $ref: bblocks://ogc.api.processes.part1.v1.schemas.inlineOrRefData
+      - type: array
+        items:
+          $ref: bblocks://ogc.api.processes.part1.v1.schemas.inlineOrRefData
+  outputs:
+    additionalProperties:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.output
+  response:
+    type: string
+    enum:
+    - raw
+    - document
+    default:
+    - raw
+  subscriber:
+    $ref: bblocks://ogc.api.processes.part1.v1.schemas.subscriber

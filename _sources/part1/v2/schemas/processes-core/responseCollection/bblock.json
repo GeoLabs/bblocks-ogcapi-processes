@@ -1,0 +1,20 @@
+{
+	"name": "responseCollection",
+	"status": "under-development",
+	"dateTimeAddition": "2026-11-10T00:00:00Z",
+	"dateOfLastChange": "2026-11-10",
+	"itemClass": "schema",
+	"version": "2.0",
+	"register": "ogcapi-processes",
+	"sources": [
+		{
+			"title": "OGC API - Processes pinned official Core component",
+			"link": "https://raw.githubusercontent.com/opengeospatial/ogcapi-processes/0f9c3d88ccdb1802f6356fd39e7963df7b8dadae/openapi/schemas/processes-core/responseCollection.yaml"
+		}
+	],
+	"tags": [
+		"ogcapi-processes",
+		"official",
+		"part1-v2"
+	]
+}

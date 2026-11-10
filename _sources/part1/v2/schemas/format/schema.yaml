@@ -1,0 +1,14 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- type: object
+  properties:
+    mediaType:
+      type: string
+    encoding:
+      type: string
+    schema:
+      oneOf:
+      - type: string
+        format: url
+      - type: object
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.dataClasses

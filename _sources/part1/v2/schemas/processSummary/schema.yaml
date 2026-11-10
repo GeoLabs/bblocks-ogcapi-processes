@@ -1,0 +1,20 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.descriptionType
+- type: object
+  required:
+  - id
+  - version
+  properties:
+    id:
+      type: string
+    version:
+      type: string
+    jobControlOptions:
+      type: array
+      items:
+        $ref: bblocks://ogc.api.processes.part1.v2.schemas.jobControlOptions
+    links:
+      type: array
+      items:
+        $ref: bblocks://ogc.api.processes.part1.v2.schemas.link

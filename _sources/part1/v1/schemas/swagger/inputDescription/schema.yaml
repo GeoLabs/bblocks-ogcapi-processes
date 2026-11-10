@@ -1,0 +1,19 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: bblocks://ogc.api.processes.part1.v1.schemas.descriptionType
+- type: object
+  required:
+  - schema
+  properties:
+    minOccurs:
+      type: integer
+      default: 1
+    maxOccurs:
+      oneOf:
+      - type: integer
+        default: 1
+      - type: string
+        enum:
+        - unbounded
+    schema:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.swagger.schema

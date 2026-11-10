@@ -1,0 +1,3 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: string
+format: byte

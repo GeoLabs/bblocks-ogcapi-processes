@@ -1,0 +1,5 @@
+description: Information about the available processes
+content:
+  application/json:
+    schema:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.processList

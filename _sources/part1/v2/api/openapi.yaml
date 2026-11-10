@@ -1,0 +1,57 @@
+openapi: 3.0.0
+info:
+  version: 2.0rc1
+  title: OGC API - Processes
+  description: Example API Definition for OGC API - Processes
+  contact:
+    name: Open Geospatial Consortium
+    email: info@ogc.org
+  license:
+    name: OGC License
+    url: http://www.opengeospatial.org/legal/
+servers:
+- description: 'Example Server 1 (GNOSIS, supporting Part 1: Core /Sync and Part 3: Workflows)'
+  url: https://maps.gnosis.earth/ogcapi
+- description: Example Server 2 (CRIM Hirondelle, supporting Parts 1, 2, 3, 4)
+  url: https://hirondelle.crim.ca/ogcapi/processes
+paths:
+  /:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.LandingPage
+  /conformance:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.Conformance
+  /processes:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.ProcessList
+  /processes/{processID}:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.ProcessDescription
+  /processes/{processID}/execution:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.Execution
+  /jobs:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.JobList
+  /jobs/{jobID}:
+    get:
+      $ref: bblocks://ogc.api.processes.part1.v2.paths.Job#/get
+    delete:
+      $ref: bblocks://ogc.api.processes.part1.v2.paths.DismissJob#/delete
+  /jobs/{jobID}/results:
+    $ref: bblocks://ogc.api.processes.part1.v2.paths.JobResult
+  /api:
+    get:
+      tags:
+      - API
+      operationId: getAPI
+      summary: Retrieve this API definition.
+      parameters:
+      - $ref: bblocks://ogc.api.processes.part1.v2.parameters.unspecified.f-metadata
+      responses:
+        '200':
+          $ref: bblocks://ogc.api.processes.part1.v2.responses.common-core.rAPI
+        '406':
+          $ref: bblocks://ogc.api.processes.part1.v2.responses.common-core.rNotAcceptable
+        '500':
+          $ref: bblocks://ogc.api.processes.part1.v2.responses.ServerError
+components: {}
+definitions:
+  Context:
+    $ref: https://www.w3.org/submissions/prov-jsonld/schema.json#definitions/Context
+  ArrayOfValues:
+    $ref: https://www.w3.org/submissions/prov-jsonld/schema.json#definitions/ArrayOfValues

@@ -1,0 +1,17 @@
+## Prefixes will be used for all RDF Turtle resources so that they can be omitted from the actual snippets
+# prefixes:
+#   dct: http://purl.org/dc/terms/
+
+## List of examples
+examples:
+
+  - title: Complex object described using the official v2 schema subset
+
+    content:
+      The official pinned v2 schema requires type and properties in an input
+      schema. The former reference-only example is retained as a negative
+      regression fixture in tests/legacy-schema-ref-fail.json.
+    snippets:
+      - language: json
+
+        ref: examples/complex.json

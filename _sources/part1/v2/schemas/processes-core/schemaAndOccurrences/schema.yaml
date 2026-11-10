@@ -1,0 +1,17 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+required:
+- schema
+properties:
+  schema:
+    $ref: bblocks://ogc.api.processes.part1.v2.schemas.schema
+  minOccurs:
+    type: integer
+    default: 1
+  maxOccurs:
+    oneOf:
+    - type: integer
+      default: 1
+    - type: string
+      enum:
+      - unbounded

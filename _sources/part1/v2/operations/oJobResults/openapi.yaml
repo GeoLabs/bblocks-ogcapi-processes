@@ -1,0 +1,20 @@
+summary: retrieve the result(s) of a job
+description: 'Lists available results of a job. In case of a failure, lists exceptions instead.
+
+
+  For more information, see [Section 7.11](https://docs.ogc.org/is/18-062r2/18-062r2.html#sc_retrieve_job_results).
+
+  '
+operationId: getResult
+tags:
+- Jobs
+parameters:
+- $ref: bblocks://ogc.api.processes.part1.v2.parameters.jobId
+- $ref: bblocks://ogc.api.processes.part1.v2.parameters.processes-core.prefer-header-return
+responses:
+  200:
+    $ref: bblocks://ogc.api.processes.part1.v2.responses.Results
+  404:
+    $ref: bblocks://ogc.api.processes.part1.v2.responses.NotFound
+  500:
+    $ref: bblocks://ogc.api.processes.part1.v2.responses.ServerError

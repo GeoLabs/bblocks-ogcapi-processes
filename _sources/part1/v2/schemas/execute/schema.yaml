@@ -1,0 +1,10 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- type: object
+  properties:
+    process:
+      type: string
+      format: uri
+      description: The URI to the description of the process that should be executed.
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.responseCollection
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.executeBase

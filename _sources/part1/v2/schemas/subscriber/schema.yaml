@@ -1,0 +1,20 @@
+# Official definition embedded by scripts/align_official_sources.py.
+description: 'Optional URIs for callbacks for this job.
+
+
+  Support for this parameter is not required and the parameter may be
+
+  removed from the API definition, if conformance class **''callback''**
+
+  is not listed in the conformance declaration under `/conformance`.'
+type: object
+properties:
+  successUri:
+    type: string
+    format: uri
+  inProgressUri:
+    type: string
+    format: uri
+  failedUri:
+    type: string
+    format: uri

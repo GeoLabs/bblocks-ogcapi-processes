@@ -1,0 +1,9 @@
+description: A process description.
+content:
+  application/json:
+    schema:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.process
+    examples:
+      processDecription:
+        summary: A Process Description example
+        externalValue: https://schemas.opengis.net/ogcapi/processes/part1/1.0/examples/json/ProcessDescription.json

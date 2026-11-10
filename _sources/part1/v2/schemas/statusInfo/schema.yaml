@@ -1,0 +1,63 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.descriptionType
+- type: object
+  required:
+  - id
+  - status
+  - processingEntityType
+  properties:
+    id:
+      type: string
+    processID:
+      type: string
+      format: uri
+    processingEntityType:
+      allOf:
+      - description: 'The type of entity that created the job and is doing the processing.
+
+          This includes all the data access apis listed in "apis.yaml" plus
+
+          the processing APIs of OGC API Processes and OpenEO.'
+      - $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.processingEntityType
+    profileEntityType:
+      allOf:
+      - description: 'The type of entity requesting this status information.  This may
+
+          be differernt than the processing entity.  For example, the
+
+          processing entity may be OGC API Processes but the status
+
+          information is requested via the OpenEO API.'
+      - $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.processingEntityType
+    request:
+      oneOf:
+      - type: string
+      - type: object
+      - $ref: bblocks://ogc.api.processes.part1.v2.schemas.link
+    status:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.statusCode
+    message:
+      type: string
+    exception:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.exception
+    created:
+      type: string
+      format: date-time
+    started:
+      type: string
+      format: date-time
+    finished:
+      type: string
+      format: date-time
+    updated:
+      type: string
+      format: date-time
+    progress:
+      type: integer
+      minimum: 0
+      maximum: 100
+    links:
+      type: array
+      items:
+        $ref: bblocks://ogc.api.processes.part1.v2.schemas.link

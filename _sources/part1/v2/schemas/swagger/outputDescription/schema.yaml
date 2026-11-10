@@ -1,0 +1,9 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: https://schemas.opengis.net/ogcapi/processes/part1/1.0/openapi/schemas/descriptionType.yaml
+- type: object
+  required:
+  - schema
+  properties:
+    schema:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.swagger.schema

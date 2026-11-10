@@ -1,0 +1,20 @@
+delete:
+  summary: cancel a job execution, remove a finished job
+  description: 'Cancel a job execution and remove it from the jobs list.
+
+
+    For more information, see [Section 14]https://docs.ogc.org/is/18-062r2/18-062r2.html#Dismiss).
+
+    '
+  operationId: dismiss
+  tags:
+  - Jobs
+  parameters:
+  - $ref: bblocks://ogc.api.processes.part1.v2.parameters.jobId
+  responses:
+    200:
+      $ref: bblocks://ogc.api.processes.part1.v2.responses.Status
+    404:
+      $ref: bblocks://ogc.api.processes.part1.v2.responses.NotFound
+    500:
+      $ref: bblocks://ogc.api.processes.part1.v2.responses.ServerError

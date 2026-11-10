@@ -1,0 +1,9 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: bblocks://ogc.api.processes.part1.v1.schemas.format
+- type: object
+  required:
+  - value
+  properties:
+    value:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.inputValue

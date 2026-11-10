@@ -1,0 +1,10 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+required:
+- conformsTo
+properties:
+  conformsTo:
+    type: array
+    items:
+      type: string
+      example: http://www.opengis.net/spec/ogcapi-processes-1/1.0/conf/core

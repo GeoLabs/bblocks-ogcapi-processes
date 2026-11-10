@@ -1,0 +1,9 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: bblocks://ogc.api.processes.part1.v1.schemas.descriptionType
+- type: object
+  required:
+  - schema
+  properties:
+    schema:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.swagger.schema

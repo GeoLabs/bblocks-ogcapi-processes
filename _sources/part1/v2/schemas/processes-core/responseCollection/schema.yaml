@@ -1,0 +1,7 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+properties:
+  response:
+    type: string
+    enum:
+    - collection

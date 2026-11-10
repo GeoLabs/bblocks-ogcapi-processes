@@ -1,0 +1,15 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+properties:
+  title:
+    type: string
+  description:
+    type: string
+  keywords:
+    type: array
+    items:
+      type: string
+  metadata:
+    type: array
+    items:
+      $ref: bblocks://ogc.api.processes.part1.v2.schemas.metadata

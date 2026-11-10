@@ -1,3 +1,0 @@
-oneOf:
-- $ref: bblocks://ogc.api.processes.v1.schemas.inputValueNoObject
-- type: object

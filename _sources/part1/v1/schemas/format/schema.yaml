@@ -1,0 +1,12 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+properties:
+  mediaType:
+    type: string
+  encoding:
+    type: string
+  schema:
+    oneOf:
+    - type: string
+      format: url
+    - type: object

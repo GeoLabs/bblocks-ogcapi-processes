@@ -1,0 +1,20 @@
+{
+  "name": "confClasses",
+  "status": "under-development",
+  "dateTimeAddition": "2024-03-22T11:40:00+01:00",
+  "itemClass": "schema",
+  "register": "ogcapi-processes",
+  "version": "2.0",
+  "dateOfLastChange": "2024-03-22",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (2.0 draft, OGC 18-062r3)",
+      "link": "https://docs.ogc.org/DRAFTS/18-062r3.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-features",
+    "features"
+  ],
+  "abstract": "Compatibility identifier for the official Processes master Common Core confClasses schema."
+}

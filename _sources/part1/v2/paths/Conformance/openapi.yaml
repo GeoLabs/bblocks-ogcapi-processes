@@ -1,0 +1,14 @@
+get:
+  tags:
+  - Conformance
+  operationId: getConformance
+  summary: Retrieve the set of OGC API conformance classes that are supported by this service.
+  parameters:
+  - $ref: bblocks://ogc.api.processes.part1.v2.parameters.unspecified.f-metadata
+  responses:
+    '200':
+      $ref: bblocks://ogc.api.processes.part1.v2.responses.ConformanceDeclaration
+    '406':
+      $ref: bblocks://ogc.api.processes.part1.v2.responses.common-core.rNotAcceptable
+    '500':
+      $ref: bblocks://ogc.api.processes.part1.v2.responses.ServerError

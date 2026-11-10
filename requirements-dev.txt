@@ -1,0 +1,4 @@
+# Python >=3.10. Tests use the standard-library unittest (no pytest needed).
+PyYAML>=6.0
+requests>=2.28
+jsonschema>=4.18

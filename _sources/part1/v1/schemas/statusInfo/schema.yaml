@@ -1,0 +1,39 @@
+# Official definition embedded by scripts/align_official_sources.py.
+type: object
+required:
+- jobID
+- status
+- type
+properties:
+  processID:
+    type: string
+  type:
+    type: string
+    enum:
+    - process
+  jobID:
+    type: string
+  status:
+    $ref: bblocks://ogc.api.processes.part1.v1.schemas.statusCode
+  message:
+    type: string
+  created:
+    type: string
+    format: date-time
+  started:
+    type: string
+    format: date-time
+  finished:
+    type: string
+    format: date-time
+  updated:
+    type: string
+    format: date-time
+  progress:
+    type: integer
+    minimum: 0
+    maximum: 100
+  links:
+    type: array
+    items:
+      $ref: bblocks://ogc.api.processes.part1.v1.schemas.link

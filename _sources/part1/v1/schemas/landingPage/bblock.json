@@ -1,0 +1,19 @@
+{
+  "status": "under-development",
+  "dateTimeAddition": "2025-10-22T15:29:12.046535",
+  "register": "ogcapi-processes",
+  "version": "1.0",
+  "dateOfLastChange": "2025-10-22",
+  "sources": [
+    {
+      "title": "OGC API - Processes - Part 1: Core (version 1.0, OGC 18-062r2)",
+      "link": "https://docs.ogc.org/is/18-062r2/18-062r2.html"
+    }
+  ],
+  "tags": [
+    "ogcapi-processes",
+    "schema"
+  ],
+  "name": "landingPage",
+  "itemClass": "schema"
+}

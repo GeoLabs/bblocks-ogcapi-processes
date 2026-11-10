@@ -1,0 +1,19 @@
+# Official definition embedded by scripts/align_official_sources.py.
+allOf:
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.descriptionType
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.dataClasses
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.dataAccessAPIs
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.executionUnitRequirements
+- $ref: bblocks://ogc.api.processes.part1.v2.schemas.processes-core.schemaAndOccurrences
+- type: object
+  properties:
+    valuePassing:
+      type: array
+      items:
+        type: string
+        enum:
+        - byValue
+        - byReference
+      default:
+      - byValue
+      - byReference
